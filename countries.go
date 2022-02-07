@@ -3,6 +3,7 @@ package countries
 import (
 	"errors"
 	"sort"
+	"strings"
 )
 
 // Mapping holds a country code.
@@ -36,7 +37,7 @@ func FindCountry(query string) (*Mapping, error) {
 
 func findCountryByAlpha2(query string) (*Mapping, error) {
 	for i := range mappings {
-		if mappings[i].Alpha2 == query {
+		if strings.EqualFold(mappings[i].Alpha2, query) {
 			return &mappings[i], nil
 		}
 	}
@@ -46,7 +47,7 @@ func findCountryByAlpha2(query string) (*Mapping, error) {
 
 func findCountryByAlpha3(query string) (*Mapping, error) {
 	for i := range mappings {
-		if mappings[i].Alpha3 == query {
+		if strings.EqualFold(mappings[i].Alpha3, query) {
 			return &mappings[i], nil
 		}
 	}
@@ -55,11 +56,13 @@ func findCountryByAlpha3(query string) (*Mapping, error) {
 }
 
 func findCountryByName(query string) (*Mapping, error) {
+	query = strings.ToLower(query)
+
 	idx := sort.Search(len(mappings), func(i int) bool {
-		return mappings[i].Country >= query
+		return strings.ToLower(mappings[i].Country) >= query
 	})
 
-	if idx < len(mappings) && mappings[idx].Country == query {
+	if idx < len(mappings) && strings.ToLower(mappings[idx].Country) == query {
 		return &mappings[idx], nil
 	}
 
