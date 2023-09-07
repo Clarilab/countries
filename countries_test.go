@@ -6,7 +6,7 @@ import (
 	"github.com/Clarilab/countries/v2"
 )
 
-func TestGetAlpha2(t *testing.T) {
+func TestAlpha2(t *testing.T) {
 	for i := range countries.AllMappings() {
 		country := countries.AllMappings()[i]
 
