@@ -11,7 +11,7 @@ var mappings = []Mapping{
 				Official:    "Commonwealth Australien", //nolint:misspell // correct german translation
 				Nationality: "Australisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Australia",
 				Official:    "Commonwealth of Australia",
 				Nationality: "Australian",
@@ -27,7 +27,7 @@ var mappings = []Mapping{
 				Official:    "Republik Österreich",
 				Nationality: "Österreichisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Austria",
 				Official:    "Republic of Austria",
 				Nationality: "Austrian",
@@ -43,7 +43,7 @@ var mappings = []Mapping{
 				Official:    "Republik Aserbaidschan",
 				Nationality: "Aserbaidschaner",
 			},
-			"gb": {
+			"en": {
 				Common:      "Azerbaijan",
 				Official:    "Republic of Azerbaijan",
 				Nationality: "Azerbaijani",
@@ -59,7 +59,7 @@ var mappings = []Mapping{
 				Official:    "Republik Albanien",
 				Nationality: "Albanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Albania",
 				Official:    "Republic of Albania",
 				Nationality: "Albanian",
@@ -75,7 +75,7 @@ var mappings = []Mapping{
 				Official:    "Demokratische Volksrepublik Algerien",
 				Nationality: "Algerisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Algeria",
 				Official:    "People's Democratic Republic of Algeria",
 				Nationality: "Algerian",
@@ -91,7 +91,7 @@ var mappings = []Mapping{
 				Common:      "Amerikanisch-Samoa",
 				Nationality: "Samoaner aus Amerikanisch-Samoa",
 			},
-			"gb": {
+			"en": {
 				Common:      "American Samoa",
 				Official:    "American Samoa",
 				Nationality: "American Samoan",
@@ -107,7 +107,7 @@ var mappings = []Mapping{
 				Official:    "Anguilla",
 				Nationality: "Anguillianer",
 			},
-			"gb": {
+			"en": {
 				Common:      "Anguilla",
 				Official:    "Anguilla",
 				Nationality: "Anguillan",
@@ -123,7 +123,7 @@ var mappings = []Mapping{
 				Official:    "Republik Angola",
 				Nationality: "Angolanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Angola",
 				Official:    "Republic of Angola",
 				Nationality: "Angolan",
@@ -139,7 +139,7 @@ var mappings = []Mapping{
 				Official:    "Fürstentum Andorra",
 				Nationality: "Andorranisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Andorra",
 				Official:    "Principality of Andorra",
 				Nationality: "Andorran",
@@ -154,7 +154,7 @@ var mappings = []Mapping{
 				Common:   "Antarktis",
 				Official: "Antarktika",
 			},
-			"gb": {
+			"en": {
 				Common:   "Antarctica",
 				Official: "Antarctica",
 			},
@@ -169,7 +169,7 @@ var mappings = []Mapping{
 				Official:    "Antigua und Barbuda",
 				Nationality: "Antiguanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Antigua and Barbuda",
 				Official:    "Antigua and Barbuda",
 				Nationality: "Antiguans and Barbudans",
@@ -185,7 +185,7 @@ var mappings = []Mapping{
 				Common:      "Vereinigte Arabische Emirate",
 				Nationality: "Emirati",
 			},
-			"gb": {
+			"en": {
 				Common:      "United Arab Emirates",
 				Official:    "United Arab Emirates",
 				Nationality: "Emirati",
@@ -201,7 +201,7 @@ var mappings = []Mapping{
 				Common:      "Argentinien",
 				Nationality: "Argentinisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Argentina",
 				Official:    "Argentine Republic",
 				Nationality: "Argentine",
@@ -217,7 +217,7 @@ var mappings = []Mapping{
 				Official:    "Republik Armenien",
 				Nationality: "Armenisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Armenia",
 				Official:    "Republic of Armenia",
 				Nationality: "Armenian",
@@ -233,7 +233,7 @@ var mappings = []Mapping{
 				Official:    "Aruba",
 				Nationality: "Aruber",
 			},
-			"gb": {
+			"en": {
 				Common:      "Aruba",
 				Official:    "Aruba",
 				Nationality: "Aruban",
@@ -249,7 +249,7 @@ var mappings = []Mapping{
 				Official:    "Islamische Republik Afghanistan",
 				Nationality: "Afghanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Afghanistan",
 				Official:    "Islamic Republic of Afghanistan",
 				Nationality: "Afghan",
@@ -265,7 +265,7 @@ var mappings = []Mapping{
 				Common:      "Bahamas",
 				Nationality: "Bahamaisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Bahamas",
 				Official:    "Commonwealth of the Bahamas",
 				Nationality: "Bahamian",
@@ -281,7 +281,7 @@ var mappings = []Mapping{
 				Official:    "Volksrepublik Bangladesch", //nolint:misspell // correct german translation
 				Nationality: "Bangladeschisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Bangladesh",
 				Official:    "People's Republic of Bangladesh",
 				Nationality: "Bangladeshi",
@@ -297,7 +297,7 @@ var mappings = []Mapping{
 				Official:    "Barbados",
 				Nationality: "Barbadisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Barbados",
 				Official:    "Barbados",
 				Nationality: "Barbadian",
@@ -313,7 +313,7 @@ var mappings = []Mapping{
 				Common:      "Bahrain",
 				Nationality: "Bahrainisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Bahrain",
 				Official:    "Kingdom of Bahrain",
 				Nationality: "Bahraini",
@@ -329,7 +329,7 @@ var mappings = []Mapping{
 				Official:    "Republik Belarus",
 				Nationality: "Belarussisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Belarus",
 				Official:    "Republic of Belarus",
 				Nationality: "Belarusian",
@@ -345,7 +345,7 @@ var mappings = []Mapping{
 				Official:    "Belize",
 				Nationality: "Belizisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Belize",
 				Official:    "Belize",
 				Nationality: "Belizean",
@@ -361,7 +361,7 @@ var mappings = []Mapping{
 				Official:    "Königreich Belgien",
 				Nationality: "Belgisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Belgium",
 				Official:    "Kingdom of Belgium",
 				Nationality: "Belgian",
@@ -377,7 +377,7 @@ var mappings = []Mapping{
 				Common:      "Benin",
 				Nationality: "Beninisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Benin",
 				Official:    "Republic of Benin",
 				Nationality: "Beninese",
@@ -393,7 +393,7 @@ var mappings = []Mapping{
 				Common:      "Bermuda",
 				Nationality: "Bermuder",
 			},
-			"gb": {
+			"en": {
 				Common:      "Bermuda",
 				Official:    "Bermuda",
 				Nationality: "Bermudian",
@@ -409,7 +409,7 @@ var mappings = []Mapping{
 				Official:    "Republik Bulgarien",
 				Nationality: "Bulgarisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Bulgaria",
 				Official:    "Republic of Bulgaria",
 				Nationality: "Bulgarian",
@@ -425,7 +425,7 @@ var mappings = []Mapping{
 				Common:      "Bolivien",
 				Nationality: "Bolivianisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Bolivia",
 				Official:    "Plurinational State of Bolivia",
 				Nationality: "Bolivian",
@@ -441,7 +441,7 @@ var mappings = []Mapping{
 				Official:    "Bosnien und Herzegowina",
 				Nationality: "Bosnisch-herzegowinisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Bosnia and Herzegovina",
 				Official:    "Bosnia and Herzegovina",
 				Nationality: "Bosnian and Herzegovinian",
@@ -457,7 +457,7 @@ var mappings = []Mapping{
 				Official:    "Republik Botswana",
 				Nationality: "Botsuanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Botswana",
 				Official:    "Republic of Botswana",
 				Nationality: "Botswanan",
@@ -473,7 +473,7 @@ var mappings = []Mapping{
 				Official:    "Föderative Republik Brasilien",
 				Nationality: "Brasilianisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Brazil",
 				Official:    "Federative Republic of Brazil",
 				Nationality: "Brazilian",
@@ -488,7 +488,7 @@ var mappings = []Mapping{
 				Common:   "Britisches Territorium im Indischen Ozean",
 				Official: "Britisch-Indischer Ozean",
 			},
-			"gb": {
+			"en": {
 				Common:   "British Indian Ocean Territory",
 				Official: "British Indian Ocean Territory",
 			},
@@ -503,7 +503,7 @@ var mappings = []Mapping{
 				Official:    "Nation von Brunei, Wohnung des Friedens",
 				Nationality: "Bruneiisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Brunei",
 				Official:    "Nation of Brunei, Abode of Peace",
 				Nationality: "Bruneian",
@@ -519,7 +519,7 @@ var mappings = []Mapping{
 				Official:    "Burkina Faso",
 				Nationality: "Burkinisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Burkina Faso",
 				Official:    "Burkina Faso",
 				Nationality: "Burkinabe",
@@ -535,7 +535,7 @@ var mappings = []Mapping{
 				Official:    "Republik Burundi",
 				Nationality: "Burundisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Burundi",
 				Official:    "Republic of Burundi",
 				Nationality: "Burundian",
@@ -551,7 +551,7 @@ var mappings = []Mapping{
 				Official:    "Königreich Bhutan",
 				Nationality: "Bhutanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Bhutan",
 				Official:    "Kingdom of Bhutan",
 				Nationality: "Bhutanese",
@@ -567,7 +567,7 @@ var mappings = []Mapping{
 				Official:    "Vanuatu",
 				Nationality: "Vanuatuisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Vanuatu",
 				Official:    "Republic of Vanuatu",
 				Nationality: "Ni-Vanuatu",
@@ -583,7 +583,7 @@ var mappings = []Mapping{
 				Official:    "Staat Vatikanstadt",
 				Nationality: "Vatikanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Vatican City",
 				Official:    "Vatican City State",
 				Nationality: "Vatican",
@@ -599,7 +599,7 @@ var mappings = []Mapping{
 				Official:    "Vereinigtes Königreich Großbritannien und Nordirland",
 				Nationality: "Britisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "United Kingdom",
 				Official:    "United Kingdom of Great Britain and Northern Ireland",
 				Nationality: "British",
@@ -615,7 +615,7 @@ var mappings = []Mapping{
 				Official:    "Ungarn",
 				Nationality: "Ungarisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Hungary",
 				Official:    "Hungary",
 				Nationality: "Hungarian",
@@ -631,7 +631,7 @@ var mappings = []Mapping{
 				Official:    "Bolivarische Republik Venezuela",
 				Nationality: "Venezolanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Venezuela",
 				Official:    "Bolivarian Republic of Venezuela",
 				Nationality: "Venezuelan",
@@ -647,7 +647,7 @@ var mappings = []Mapping{
 				Official:    "Jungferninseln",
 				Nationality: "Britisch-Virgin-Islander",
 			},
-			"gb": {
+			"en": {
 				Common:      "British Virgin Islands",
 				Official:    "Virgin Islands",
 				Nationality: "British Virgin Islander",
@@ -663,7 +663,7 @@ var mappings = []Mapping{
 				Common:      "Amerikanische Jungferninseln",
 				Nationality: "Ameriakner",
 			},
-			"gb": {
+			"en": {
 				Common:      "United States Virgin Islands",
 				Official:    "Virgin Islands of the United States",
 				Nationality: "American",
@@ -679,7 +679,7 @@ var mappings = []Mapping{
 				Official:    "Demokratische Republik Timor-Leste",
 				Nationality: "Osttimorese",
 			},
-			"gb": {
+			"en": {
 				Common:      "Timor-Leste",
 				Official:    "Democratic Republic of Timor-Leste",
 				Nationality: "East Timorese",
@@ -695,7 +695,7 @@ var mappings = []Mapping{
 				Official:    "Sozialistische Republik Vietnam",
 				Nationality: "Vietnamesisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Vietnam",
 				Official:    "Socialist Republic of Vietnam",
 				Nationality: "Vietnamese",
@@ -711,7 +711,7 @@ var mappings = []Mapping{
 				Official:    "Gabunische Republik",
 				Nationality: "Gabunisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Gabon",
 				Official:    "Gabonese Republic",
 				Nationality: "Gabonese",
@@ -727,7 +727,7 @@ var mappings = []Mapping{
 				Official:    "Republik Haiti",
 				Nationality: "Haitianisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Haiti",
 				Official:    "Republic of Haiti",
 				Nationality: "Haitian",
@@ -743,7 +743,7 @@ var mappings = []Mapping{
 				Common:      "Französisch Guyana",
 				Nationality: "Guyanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Guyana",
 				Official:    "Co-operative Republic of Guyana",
 				Nationality: "Guyanese",
@@ -759,7 +759,7 @@ var mappings = []Mapping{
 				Official:    "Republik Gambia",
 				Nationality: "Gambisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Gambia",
 				Official:    "Republic of the Gambia",
 				Nationality: "Gambian",
@@ -775,7 +775,7 @@ var mappings = []Mapping{
 				Official:    "Republik Ghana",
 				Nationality: "Ghanaisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Ghana",
 				Official:    "Republic of Ghana",
 				Nationality: "Ghanaian",
@@ -791,7 +791,7 @@ var mappings = []Mapping{
 				Official:    "Guadeloupe",
 				Nationality: "Franzose",
 			},
-			"gb": {
+			"en": {
 				Common:      "Guadeloupe",
 				Official:    "Guadeloupe",
 				Nationality: "French",
@@ -807,7 +807,7 @@ var mappings = []Mapping{
 				Official:    "Republik Guatemala",
 				Nationality: "Guatemaltekisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Guatemala",
 				Official:    "Republic of Guatemala",
 				Nationality: "Guatemalan",
@@ -823,7 +823,7 @@ var mappings = []Mapping{
 				Common:      "Guinea",
 				Nationality: "Guineisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Guinea",
 				Official:    "Republic of Guinea",
 				Nationality: "Guinean",
@@ -839,7 +839,7 @@ var mappings = []Mapping{
 				Official:    "Republik Guinea-Bissau",
 				Nationality: "Guinea-bissauisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Guinea-Bissau",
 				Official:    "Republic of Guinea-Bissau",
 				Nationality: "Guinea-Bissauan",
@@ -855,7 +855,7 @@ var mappings = []Mapping{
 				Official:    "Bundesrepublik Deutschland",
 				Nationality: "Deutsch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Germany",
 				Official:    "Federal Republic of Germany",
 				Nationality: "German",
@@ -871,7 +871,7 @@ var mappings = []Mapping{
 				Official:    "Gibraltar",
 				Nationality: "Gibraltarian",
 			},
-			"gb": {
+			"en": {
 				Common:      "Gibraltar",
 				Official:    "Gibraltar",
 				Nationality: "Gibraltarer",
@@ -887,7 +887,7 @@ var mappings = []Mapping{
 				Official:    "Republik Honduras",
 				Nationality: "Honduranisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Honduras",
 				Official:    "Republic of Honduras",
 				Nationality: "Honduran",
@@ -903,7 +903,7 @@ var mappings = []Mapping{
 				Official:    "Sonderverwaltungszone der Volksrepublik China",
 				Nationality: "Hongkonger",
 			},
-			"gb": {
+			"en": {
 				Common:      "Hong Kong",
 				Official:    "Hong Kong Special Administrative Region of the People's Republic of China",
 				Nationality: "Hong Konger",
@@ -919,7 +919,7 @@ var mappings = []Mapping{
 				Common:      "Grenada",
 				Nationality: "Grenadisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Grenada",
 				Official:    "Grenada",
 				Nationality: "Grenadian",
@@ -935,7 +935,7 @@ var mappings = []Mapping{
 				Official:    "Grönland",
 				Nationality: "Grönländer",
 			},
-			"gb": {
+			"en": {
 				Common:      "Greenland",
 				Official:    "Greenland",
 				Nationality: "Greenlander",
@@ -951,7 +951,7 @@ var mappings = []Mapping{
 				Official:    "Hellenische Republik",
 				Nationality: "Griechisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Greece",
 				Official:    "Hellenic Republic",
 				Nationality: "Greek",
@@ -967,7 +967,7 @@ var mappings = []Mapping{
 				Common:      "Georgien",
 				Nationality: "Georgisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Georgia",
 				Official:    "Georgia",
 				Nationality: "Georgian",
@@ -983,7 +983,7 @@ var mappings = []Mapping{
 				Official:    "Guam",
 				Nationality: "Amerikaner",
 			},
-			"gb": {
+			"en": {
 				Common:      "Guam",
 				Official:    "Guam",
 				Nationality: "American",
@@ -999,7 +999,7 @@ var mappings = []Mapping{
 				Common:      "Dänemark",
 				Nationality: "Dänisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Denmark",
 				Official:    "Kingdom of Denmark",
 				Nationality: "Danish",
@@ -1015,7 +1015,7 @@ var mappings = []Mapping{
 				Official:    "Demokratische Republik Kongo",
 				Nationality: "Kongolesisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "DR Congo",
 				Official:    "Democratic Republic of the Congo",
 				Nationality: "Congolese",
@@ -1031,7 +1031,7 @@ var mappings = []Mapping{
 				Official:    "Republik Dschibuti",
 				Nationality: "Dschibutisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Djibouti",
 				Official:    "Republic of Djibouti",
 				Nationality: "Djiboutian",
@@ -1047,7 +1047,7 @@ var mappings = []Mapping{
 				Official:    "Commonwealth von Dominica",
 				Nationality: "Dominicanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Dominica",
 				Official:    "Commonwealth of Dominica",
 				Nationality: "Dominican",
@@ -1063,7 +1063,7 @@ var mappings = []Mapping{
 				Common:      "Dominikanische Republik",
 				Nationality: "Dominikanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Dominican Republic",
 				Official:    "Dominican Republic",
 				Nationality: "Dominikaner",
@@ -1079,7 +1079,7 @@ var mappings = []Mapping{
 				Official:    "Arabische Republik Ägypten",
 				Nationality: "Ägyptisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Egypt",
 				Official:    "Arab Republic of Egypt",
 				Nationality: "Egyptian",
@@ -1095,7 +1095,7 @@ var mappings = []Mapping{
 				Official:    "Republik Sambia",
 				Nationality: "Sambisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Zambia",
 				Official:    "Republic of Zambia",
 				Nationality: "Zambian",
@@ -1110,7 +1110,7 @@ var mappings = []Mapping{
 				Common:   "Westsahara",
 				Official: "Demokratische Arabische Republik Sahara",
 			},
-			"gb": {
+			"en": {
 				Common:   "Western Sahara",
 				Official: "Sahrawi Arab Democratic Republic",
 			},
@@ -1125,7 +1125,7 @@ var mappings = []Mapping{
 				Official:    "Republik Simbabwe",
 				Nationality: "Simbabwisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Zimbabwe",
 				Official:    "Republic of Zimbabwe",
 				Nationality: "Zimbabwean",
@@ -1141,7 +1141,7 @@ var mappings = []Mapping{
 				Official:    "Staat Israel",
 				Nationality: "Israelisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Israel",
 				Official:    "State of Israel",
 				Nationality: "Israeli",
@@ -1157,7 +1157,7 @@ var mappings = []Mapping{
 				Official:    "Republik Indien",
 				Nationality: "Indisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "India",
 				Official:    "Republic of India",
 				Nationality: "Indian",
@@ -1173,7 +1173,7 @@ var mappings = []Mapping{
 				Official:    "Republik Indonesien", //nolint:misspell // correct german translation
 				Nationality: "Indonesisch",
 			},
-			"gb": {
+			"en": {
 				Common:   "Indonesia",
 				Official: "Republic of Indonesia",
 			},
@@ -1188,7 +1188,7 @@ var mappings = []Mapping{
 				Common:      "Jordanien",
 				Nationality: "Jordanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Jordan",
 				Official:    "Hashemite Kingdom of Jordan",
 				Nationality: "Jordanian",
@@ -1204,7 +1204,7 @@ var mappings = []Mapping{
 				Official:    "Republik Irak",
 				Nationality: "Irakisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Iraq",
 				Official:    "Republic of Iraq",
 				Nationality: "Iraqi",
@@ -1220,7 +1220,7 @@ var mappings = []Mapping{
 				Official:    "Islamische Republik Iran",
 				Nationality: "Iranisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Iran",
 				Official:    "Islamic Republic of Iran",
 				Nationality: "Iranian",
@@ -1236,7 +1236,7 @@ var mappings = []Mapping{
 				Common:      "Irland",
 				Nationality: "Irisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Ireland",
 				Official:    "Republic of Ireland",
 				Nationality: "Irish",
@@ -1252,7 +1252,7 @@ var mappings = []Mapping{
 				Official:    "Island",
 				Nationality: "Isländisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Iceland",
 				Official:    "Iceland",
 				Nationality: "Icelander",
@@ -1268,7 +1268,7 @@ var mappings = []Mapping{
 				Official:    "Königreich Spanien",
 				Nationality: "Spanisch", //nolint:misspell // correct german translation
 			},
-			"gb": {
+			"en": {
 				Common:      "Spain",
 				Official:    "Kingdom of Spain",
 				Nationality: "Spanish",
@@ -1284,7 +1284,7 @@ var mappings = []Mapping{
 				Common:      "Italien",
 				Nationality: "Italienisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Italy",
 				Official:    "Italian Republic",
 				Nationality: "Italian",
@@ -1300,7 +1300,7 @@ var mappings = []Mapping{
 				Official:    "Republik Jemen",
 				Nationality: "Jemenitisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Yemen",
 				Official:    "Republic of Yemen",
 				Nationality: "Yemeni",
@@ -1316,7 +1316,7 @@ var mappings = []Mapping{
 				Official:    "Republik Kasachstan",
 				Nationality: "Kasachisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Kazakhstan",
 				Official:    "Republic of Kazakhstan",
 				Nationality: "Kazakhstani",
@@ -1332,7 +1332,7 @@ var mappings = []Mapping{
 				Official:    "Cayman-Inseln",
 				Nationality: "Kaimaninsel-Bewohner",
 			},
-			"gb": {
+			"en": {
 				Common:      "Cayman Islands",
 				Official:    "Cayman Islands",
 				Nationality: "Caymanian",
@@ -1348,7 +1348,7 @@ var mappings = []Mapping{
 				Common:      "Kambodscha",
 				Nationality: "Kambodschanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Cambodia",
 				Official:    "Kingdom of Cambodia",
 				Nationality: "Cambodian",
@@ -1364,7 +1364,7 @@ var mappings = []Mapping{
 				Official:    "Republik Kamerun",
 				Nationality: "Kamerunisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Cameroon",
 				Official:    "Republic of Cameroon",
 				Nationality: "Cameroonian",
@@ -1380,7 +1380,7 @@ var mappings = []Mapping{
 				Common:      "Kanada",
 				Nationality: "Kanadisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Canada",
 				Official:    "Canada",
 				Nationality: "Canadian",
@@ -1396,7 +1396,7 @@ var mappings = []Mapping{
 				Official:    "Staat Katar",
 				Nationality: "Katarisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Qatar",
 				Official:    "State of Qatar",
 				Nationality: "Qatari",
@@ -1412,7 +1412,7 @@ var mappings = []Mapping{
 				Official:    "Republik Kenia",
 				Nationality: "Kenianisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Kenya",
 				Official:    "Republic of Kenya",
 				Nationality: "Kenyan",
@@ -1428,7 +1428,7 @@ var mappings = []Mapping{
 				Common:      "Zypern",
 				Nationality: "Zyprisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Cyprus",
 				Official:    "Republic of Cyprus",
 				Nationality: "Cypriot",
@@ -1444,7 +1444,7 @@ var mappings = []Mapping{
 				Official:    "Unabhängige und souveräne Republik Kiribati",
 				Nationality: "Kiribatisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Kiribati",
 				Official:    "Independent and Sovereign Republic of Kiribati",
 				Nationality: "Kiribati",
@@ -1460,7 +1460,7 @@ var mappings = []Mapping{
 				Common:      "China",
 				Nationality: "Chinesisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "China",
 				Official:    "People's Republic of China",
 				Nationality: "Chinese",
@@ -1476,7 +1476,7 @@ var mappings = []Mapping{
 				Official:    "Gebiet der Cocos (Keeling) Islands",
 				Nationality: "Australier",
 			},
-			"gb": {
+			"en": {
 				Common:      "Cocos (Keeling) Islands",
 				Official:    "Territory of the Cocos (Keeling) Islands",
 				Nationality: "Australian",
@@ -1492,7 +1492,7 @@ var mappings = []Mapping{
 				Official:    "Republik Kolumbien",
 				Nationality: "Kolumbianisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Colombia",
 				Official:    "Republic of Colombia",
 				Nationality: "Colombian",
@@ -1507,7 +1507,7 @@ var mappings = []Mapping{
 				Common:   "Union der Komoren",
 				Official: "Komorisch",
 			},
-			"gb": {
+			"en": {
 				Common:   "Comoros",
 				Official: "Union of the Comoros",
 			},
@@ -1522,7 +1522,7 @@ var mappings = []Mapping{
 				Official:    "Republik Kongo",
 				Nationality: "Kongolesisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Republic of the Congo",
 				Official:    "Republic of the Congo",
 				Nationality: "Congolese",
@@ -1538,7 +1538,7 @@ var mappings = []Mapping{
 				Official:    "Demokratische Volksrepublik Korea",
 				Nationality: "Koreanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "North Korea",
 				Official:    "Democratic People's Republic of Korea",
 				Nationality: "North Korean",
@@ -1554,7 +1554,7 @@ var mappings = []Mapping{
 				Official:    "Republik Korea",
 				Nationality: "Koreanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "South Korea",
 				Official:    "Republic of Korea",
 				Nationality: "Südkoreaner",
@@ -1570,7 +1570,7 @@ var mappings = []Mapping{
 				Common:      "Costa Rica",
 				Nationality: "Costa-ricanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Costa Rica",
 				Official:    "Republic of Costa Rica",
 				Nationality: "Costa Rican",
@@ -1586,7 +1586,7 @@ var mappings = []Mapping{
 				Official:    "Republik Côte d'Ivoire",
 				Nationality: "Ivorisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Ivory Coast",
 				Official:    "Republic of Côte d'Ivoire",
 				Nationality: "Ivorian",
@@ -1602,7 +1602,7 @@ var mappings = []Mapping{
 				Official:    "Republik Kuba",
 				Nationality: "Kubanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Cuba",
 				Official:    "Republic of Cuba",
 				Nationality: "Cuban",
@@ -1618,7 +1618,7 @@ var mappings = []Mapping{
 				Official:    "Staat Kuwait",
 				Nationality: "Kuwaitisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Kuwait",
 				Official:    "State of Kuwait",
 				Nationality: "Kuwaiti",
@@ -1634,7 +1634,7 @@ var mappings = []Mapping{
 				Official:    "Kirgisische Republik",
 				Nationality: "Kirgisisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Kyrgyzstan",
 				Official:    "Kyrgyz Republic",
 				Nationality: "Kyrgyz",
@@ -1650,7 +1650,7 @@ var mappings = []Mapping{
 				Official:    "Laos, Demokratische Volksrepublik",
 				Nationality: "Laotisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Laos",
 				Official:    "Lao People's Democratic Republic",
 				Nationality: "Laotian",
@@ -1666,7 +1666,7 @@ var mappings = []Mapping{
 				Common:      "Lettland",
 				Nationality: "Lettisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Latvia",
 				Official:    "Republic of Latvia",
 				Nationality: "Latvian",
@@ -1682,7 +1682,7 @@ var mappings = []Mapping{
 				Official:    "Königreich Lesotho",
 				Nationality: "Lesothisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Lesotho",
 				Official:    "Kingdom of Lesotho",
 				Nationality: "Mosotho",
@@ -1698,7 +1698,7 @@ var mappings = []Mapping{
 				Common:      "Liberia",
 				Nationality: "Liberianisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Liberia",
 				Official:    "Republic of Liberia",
 				Nationality: "Liberian",
@@ -1714,7 +1714,7 @@ var mappings = []Mapping{
 				Common:      "Libanon",
 				Nationality: "Libanesisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Lebanon",
 				Official:    "Lebanese Republic",
 				Nationality: "Lebanese",
@@ -1730,7 +1730,7 @@ var mappings = []Mapping{
 				Official:    "Staat Libyen",
 				Nationality: "Libysch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Libya",
 				Official:    "State of Libya",
 				Nationality: "Libyan",
@@ -1746,7 +1746,7 @@ var mappings = []Mapping{
 				Official:    "Republik Litauen",
 				Nationality: "Litauisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Lithuania",
 				Official:    "Republic of Lithuania",
 				Nationality: "Lithuanian",
@@ -1762,7 +1762,7 @@ var mappings = []Mapping{
 				Official:    "Fürstentum Liechtenstein",
 				Nationality: "Liechtensteinisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Liechtenstein",
 				Official:    "Principality of Liechtenstein",
 				Nationality: "Liechtensteiner",
@@ -1778,7 +1778,7 @@ var mappings = []Mapping{
 				Official:    "Großherzogtum Luxemburg",
 				Nationality: "Luxemburgisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Luxembourg",
 				Official:    "Grand Duchy of Luxembourg",
 				Nationality: "Luxembourger",
@@ -1794,7 +1794,7 @@ var mappings = []Mapping{
 				Official:    "Republik Mauritius",
 				Nationality: "Mauritisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Mauritius",
 				Official:    "Republic of Mauritius",
 				Nationality: "Mauritian",
@@ -1810,7 +1810,7 @@ var mappings = []Mapping{
 				Common:      "Mauretanien",
 				Nationality: "Mauretanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Mauritania",
 				Official:    "Islamic Republic of Mauritania",
 				Nationality: "Mauritanian",
@@ -1826,7 +1826,7 @@ var mappings = []Mapping{
 				Official:    "Republik Madagascar",
 				Nationality: "Madagassisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Madagascar",
 				Official:    "Republic of Madagascar",
 				Nationality: "Malagasy",
@@ -1842,7 +1842,7 @@ var mappings = []Mapping{
 				Common:      "Mayotte",
 				Nationality: "Franzose",
 			},
-			"gb": {
+			"en": {
 				Common:      "Mayotte",
 				Official:    "Department of Mayotte",
 				Nationality: "French",
@@ -1858,7 +1858,7 @@ var mappings = []Mapping{
 				Official:    "Sonderverwaltungsregion Macau der Volksrepublik China",
 				Nationality: "Macaoer",
 			},
-			"gb": {
+			"en": {
 				Common:      "Macau",
 				Official:    "Macao Special Administrative Region of the People's Republic of China",
 				Nationality: "Macao",
@@ -1874,7 +1874,7 @@ var mappings = []Mapping{
 				Official:    "Republik Mazedonien",
 				Nationality: "Mazedonier",
 			},
-			"gb": {
+			"en": {
 				Common:      "Macedonia",
 				Official:    "Republic of Macedonia",
 				Nationality: "Macedonian",
@@ -1890,7 +1890,7 @@ var mappings = []Mapping{
 				Official:    "Republik Malawi",
 				Nationality: "Malawisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Malawi",
 				Official:    "Republic of Malawi",
 				Nationality: "Malawian",
@@ -1906,7 +1906,7 @@ var mappings = []Mapping{
 				Common:      "Malaysia",
 				Nationality: "Malaysisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Malaysia",
 				Official:    "Malaysia",
 				Nationality: "Malaysian",
@@ -1922,7 +1922,7 @@ var mappings = []Mapping{
 				Common:      "Mali",
 				Nationality: "Malisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Mali",
 				Official:    "Republic of Mali",
 				Nationality: "Malian",
@@ -1938,7 +1938,7 @@ var mappings = []Mapping{
 				Official:    "Republik Malediven",
 				Nationality: "Maledivisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Maldives",
 				Official:    "Republic of the Maldives",
 				Nationality: "Maldivian",
@@ -1954,7 +1954,7 @@ var mappings = []Mapping{
 				Common:      "Malta",
 				Nationality: "Maltesisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Malta",
 				Official:    "Republic of Malta",
 				Nationality: "Maltese",
@@ -1970,7 +1970,7 @@ var mappings = []Mapping{
 				Official:    "Commonwealth der Nördlichen Marianen",
 				Nationality: "Amerikaner",
 			},
-			"gb": {
+			"en": {
 				Common:      "Northern Mariana Islands",
 				Official:    "Commonwealth of the Northern Mariana Islands",
 				Nationality: "American",
@@ -1986,7 +1986,7 @@ var mappings = []Mapping{
 				Official:    "Königreich Marokko",
 				Nationality: "Marokkanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Morocco",
 				Official:    "Kingdom of Morocco",
 				Nationality: "Moroccan",
@@ -2002,7 +2002,7 @@ var mappings = []Mapping{
 				Official:    "Martinique",
 				Nationality: "Franzose",
 			},
-			"gb": {
+			"en": {
 				Common:      "Martinique",
 				Official:    "Martinique",
 				Nationality: "French",
@@ -2018,7 +2018,7 @@ var mappings = []Mapping{
 				Official:    "Republik der Marshall-Inseln",
 				Nationality: "Marshallisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Marshall Islands",
 				Official:    "Republic of the Marshall Islands",
 				Nationality: "Marshallese",
@@ -2034,7 +2034,7 @@ var mappings = []Mapping{
 				Official:    "Vereinigte Mexikanische Staaten",
 				Nationality: "Mexikanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Mexico",
 				Official:    "United Mexican States",
 				Nationality: "Mexican",
@@ -2050,7 +2050,7 @@ var mappings = []Mapping{
 				Official:    "Föderierte Staaten von Mikronesien",
 				Nationality: "Mikronesisch",
 			},
-			"gb": {
+			"en": {
 				Common:   "Micronesia",
 				Official: "Federated States of Micronesia",
 			},
@@ -2065,7 +2065,7 @@ var mappings = []Mapping{
 				Common:      "Mosambik",
 				Nationality: "Mosambikanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Mozambique",
 				Official:    "Republic of Mozambique",
 				Nationality: "Micronesian",
@@ -2081,7 +2081,7 @@ var mappings = []Mapping{
 				Official:    "Republik Moldau",
 				Nationality: "Moldauisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Moldova",
 				Official:    "Republic of Moldova",
 				Nationality: "Moldovan",
@@ -2097,7 +2097,7 @@ var mappings = []Mapping{
 				Official:    "Fürstentum Monaco",
 				Nationality: "Monegassisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Monaco",
 				Official:    "Principality of Monaco",
 				Nationality: "Monacan",
@@ -2113,7 +2113,7 @@ var mappings = []Mapping{
 				Common:      "Mongolei",
 				Nationality: "Mongolisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Mongolia",
 				Official:    "Mongolia",
 				Nationality: "Mongolian",
@@ -2129,7 +2129,7 @@ var mappings = []Mapping{
 				Common:      "Montserrat",
 				Nationality: "Montserrat-Bewohner",
 			},
-			"gb": {
+			"en": {
 				Common:      "Montserrat",
 				Official:    "Montserrat",
 				Nationality: "Montserratian",
@@ -2145,7 +2145,7 @@ var mappings = []Mapping{
 				Official:    "Republik der Union von Myanmar",
 				Nationality: "Myanmarisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Myanmar",
 				Official:    "Republic of the Union of Myanmar",
 				Nationality: "Myanmar (Burmese)",
@@ -2161,7 +2161,7 @@ var mappings = []Mapping{
 				Official:    "Republik Namibia",
 				Nationality: "Namibisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Namibia",
 				Official:    "Republic of Namibia",
 				Nationality: "Namibian",
@@ -2177,7 +2177,7 @@ var mappings = []Mapping{
 				Official:    "Republik Nauru",
 				Nationality: "Nauruisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Nauru",
 				Official:    "Republic of Nauru",
 				Nationality: "Nauruan",
@@ -2193,7 +2193,7 @@ var mappings = []Mapping{
 				Official:    "Demokratischen Bundesrepublik Nepal",
 				Nationality: "Nepalesisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Nepal",
 				Official:    "Federal Democratic Republic of Nepal",
 				Nationality: "Nepalese",
@@ -2209,7 +2209,7 @@ var mappings = []Mapping{
 				Common:      "Niger",
 				Nationality: "Nigrisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Niger",
 				Official:    "Republic of Niger",
 				Nationality: "Nigerien",
@@ -2225,7 +2225,7 @@ var mappings = []Mapping{
 				Official:    "Bundesrepublik Nigeria",
 				Nationality: "Nigerianisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Nigeria",
 				Official:    "Federal Republic of Nigeria",
 				Nationality: "Nigerian",
@@ -2241,7 +2241,7 @@ var mappings = []Mapping{
 				Common:      "Niederlande",
 				Nationality: "Niederländisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Netherlands",
 				Official:    "Netherlands",
 				Nationality: "Dutch",
@@ -2257,7 +2257,7 @@ var mappings = []Mapping{
 				Common:      "Nicaragua",
 				Nationality: "Nicaraguanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Nicaragua",
 				Official:    "Republic of Nicaragua",
 				Nationality: "Nicaraguan",
@@ -2273,7 +2273,7 @@ var mappings = []Mapping{
 				Official:    "Niue",
 				Nationality: "Niueanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Niue",
 				Official:    "Niue",
 				Nationality: "Niueaner",
@@ -2289,7 +2289,7 @@ var mappings = []Mapping{
 				Official:    "Neuseeland",
 				Nationality: "Neuseeländisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "New Zealand",
 				Official:    "New Zealand",
 				Nationality: "New Zealander",
@@ -2305,7 +2305,7 @@ var mappings = []Mapping{
 				Common:      "Neukaledonien",
 				Nationality: "Franzose",
 			},
-			"gb": {
+			"en": {
 				Common:      "New Caledonia",
 				Official:    "New Caledonia",
 				Nationality: "French",
@@ -2321,7 +2321,7 @@ var mappings = []Mapping{
 				Common:      "Norwegen",
 				Nationality: "Norwegisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Norway",
 				Official:    "Kingdom of Norway",
 				Nationality: "Norwegian",
@@ -2337,7 +2337,7 @@ var mappings = []Mapping{
 				Official:    "Sultanat Oman",
 				Nationality: "Omanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Oman",
 				Official:    "Sultanate of Oman",
 				Nationality: "Omani",
@@ -2352,7 +2352,7 @@ var mappings = []Mapping{
 				Official: "Bouvet-Insel",
 				Common:   "Bouvetinsel",
 			},
-			"gb": {
+			"en": {
 				Common:   "Bouvet Island",
 				Official: "Bouvet Island",
 			},
@@ -2367,7 +2367,7 @@ var mappings = []Mapping{
 				Common:      "Insel Man",
 				Nationality: "Manxer",
 			},
-			"gb": {
+			"en": {
 				Common:      "Isle of Man",
 				Official:    "Isle of Man",
 				Nationality: "Manx",
@@ -2383,7 +2383,7 @@ var mappings = []Mapping{
 				Official:    "Gebiet der Norfolk-Insel",
 				Nationality: "Manx",
 			},
-			"gb": {
+			"en": {
 				Common:      "Norfolk Island",
 				Official:    "Territory of Norfolk Island",
 				Nationality: "Manx",
@@ -2399,7 +2399,7 @@ var mappings = []Mapping{
 				Common:      "Pitcairn",
 				Nationality: "Pitcairn-Inselbewohner",
 			},
-			"gb": {
+			"en": {
 				Common:      "Pitcairn Islands",
 				Official:    "Pitcairn Group of Islands",
 				Nationality: "Pitcairn Islander",
@@ -2415,7 +2415,7 @@ var mappings = []Mapping{
 				Common:      "Weihnachtsinsel",
 				Nationality: "Weihnachtsinselbewohner",
 			},
-			"gb": {
+			"en": {
 				Common:      "Christmas Island",
 				Official:    "Territory of Christmas Island",
 				Nationality: "Christmas Islander",
@@ -2431,7 +2431,7 @@ var mappings = []Mapping{
 				Official:    "St. Helena, Ascension und Tristan da Cunha",
 				Nationality: "St. Helenianer",
 			},
-			"gb": {
+			"en": {
 				Common:      "Saint Helena",
 				Official:    "Saint Helena, Ascension and Tristan da Cunha",
 				Nationality: "Saint Helenian",
@@ -2447,7 +2447,7 @@ var mappings = []Mapping{
 				Official:    "Gebiet der Wallis und Futuna",
 				Nationality: "Wallis und Futuna Inselbewohner",
 			},
-			"gb": {
+			"en": {
 				Common:      "Wallis and Futuna",
 				Official:    "Territory of the Wallis and Futuna Islands",
 				Nationality: "Wallisian and Futuna",
@@ -2462,7 +2462,7 @@ var mappings = []Mapping{
 				Official: "Heard und McDonaldinseln",
 				Common:   "Heard und die McDonaldinseln",
 			},
-			"gb": {
+			"en": {
 				Common:   "Heard Island and McDonald Islands",
 				Official: "Heard Island and McDonald Islands",
 			},
@@ -2477,7 +2477,7 @@ var mappings = []Mapping{
 				Common:      "Kap Verde",
 				Nationality: "Kap-Verdier",
 			},
-			"gb": {
+			"en": {
 				Common:      "Cape Verde",
 				Official:    "Republic of Cabo Verde",
 				Nationality: "Cape Verdean",
@@ -2493,7 +2493,7 @@ var mappings = []Mapping{
 				Official:    "Cook-Inseln",
 				Nationality: "Cook-Inselbewohner",
 			},
-			"gb": {
+			"en": {
 				Common:      "Cook Islands",
 				Official:    "Cook Islands",
 				Nationality: "Cook Islander",
@@ -2509,7 +2509,7 @@ var mappings = []Mapping{
 				Official:    "Unabhängige Staat Samoa",
 				Nationality: "Samoanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Samoa",
 				Official:    "Independent State of Samoa",
 				Nationality: "Samoan",
@@ -2525,7 +2525,7 @@ var mappings = []Mapping{
 				Official:    "Inselgruppe Spitzbergen",
 				Nationality: "Norwegian",
 			},
-			"gb": {
+			"en": {
 				Common:      "Svalbard and Jan Mayen",
 				Official:    "Svalbard og Jan Mayen",
 				Nationality: "Norweger",
@@ -2541,7 +2541,7 @@ var mappings = []Mapping{
 				Official:    "Turks und Caicos Inseln",
 				Nationality: "Inselbewohner von Turks- und Caicosinseln",
 			},
-			"gb": {
+			"en": {
 				Common:      "Turks and Caicos Islands",
 				Official:    "Turks and Caicos Islands",
 				Nationality: "Turks and Caicos Islander",
@@ -2556,7 +2556,7 @@ var mappings = []Mapping{
 				Official: "USA, kleinere ausgelagerte Inseln",
 				Common:   "Kleinere Inselbesitzungen der Vereinigten Staaten",
 			},
-			"gb": {
+			"en": {
 				Common:   "United States Minor Outlying Islands",
 				Official: "United States Minor Outlying Islands",
 			},
@@ -2571,7 +2571,7 @@ var mappings = []Mapping{
 				Official:    "Islamische Republik Pakistan",
 				Nationality: "Pakistanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Pakistan",
 				Official:    "Islamic Republic of Pakistan",
 				Nationality: "Pakistani",
@@ -2587,7 +2587,7 @@ var mappings = []Mapping{
 				Common:      "Palau",
 				Nationality: "Palauisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Palau",
 				Official:    "Republic of Palau",
 				Nationality: "Palauan",
@@ -2603,7 +2603,7 @@ var mappings = []Mapping{
 				Official:    "Staat Palästina",
 				Nationality: "Palästinenser",
 			},
-			"gb": {
+			"en": {
 				Common:      "Palestine",
 				Official:    "State of Palestine",
 				Nationality: "Palestinian",
@@ -2619,7 +2619,7 @@ var mappings = []Mapping{
 				Common:      "Panama",
 				Nationality: "Panamaisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Panama",
 				Official:    "Republic of Panama",
 				Nationality: "Panamanian",
@@ -2635,7 +2635,7 @@ var mappings = []Mapping{
 				Official:    "Unabhängige Staat Papua-Neuguinea",
 				Nationality: "Papua-neuguineisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Papua New Guinea",
 				Official:    "Independent State of Papua New Guinea",
 				Nationality: "Papua New Guinean",
@@ -2651,7 +2651,7 @@ var mappings = []Mapping{
 				Official:    "Republik Paraguay",
 				Nationality: "Paraguayisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Paraguay",
 				Official:    "Republic of Paraguay",
 				Nationality: "Paraguayan",
@@ -2667,7 +2667,7 @@ var mappings = []Mapping{
 				Common:      "Peru",
 				Nationality: "Peruanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Peru",
 				Official:    "Republic of Peru",
 				Nationality: "Peruvian",
@@ -2683,7 +2683,7 @@ var mappings = []Mapping{
 				Official:    "Republik Polen",
 				Nationality: "Polnisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Poland",
 				Official:    "Republic of Poland",
 				Nationality: "Polish",
@@ -2699,7 +2699,7 @@ var mappings = []Mapping{
 				Official:    "Portugiesische Republik",
 				Nationality: "Portugiesisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Portugal",
 				Official:    "Portuguese Republic",
 				Nationality: "Portuguese",
@@ -2715,7 +2715,7 @@ var mappings = []Mapping{
 				Official:    "Commonwealth von Puerto Rico",
 				Nationality: "Puerto-Ricaner",
 			},
-			"gb": {
+			"en": {
 				Common:      "Puerto Rico",
 				Official:    "Commonwealth of Puerto Rico",
 				Nationality: "Puerto Rican",
@@ -2731,7 +2731,7 @@ var mappings = []Mapping{
 				Common:      "Réunion",
 				Nationality: "Franzose",
 			},
-			"gb": {
+			"en": {
 				Common:      "Réunion",
 				Official:    "Réunion Island",
 				Nationality: "French",
@@ -2747,7 +2747,7 @@ var mappings = []Mapping{
 				Official:    "Russische Föderation",
 				Nationality: "Russisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Russia",
 				Official:    "Russian Federation",
 				Nationality: "Russian",
@@ -2763,7 +2763,7 @@ var mappings = []Mapping{
 				Common:      "Ruanda",
 				Nationality: "Ruandisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Rwanda",
 				Official:    "Republic of Rwanda",
 				Nationality: "Rwandan",
@@ -2779,7 +2779,7 @@ var mappings = []Mapping{
 				Common:      "Rumänien",
 				Nationality: "Rumänisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Romania",
 				Official:    "Romania",
 				Nationality: "Romanian",
@@ -2795,7 +2795,7 @@ var mappings = []Mapping{
 				Official:    "Republik El Salvador",
 				Nationality: "Salvadorianisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "El Salvador",
 				Official:    "Republic of El Salvador",
 				Nationality: "Salvadoran",
@@ -2811,7 +2811,7 @@ var mappings = []Mapping{
 				Official:    "Republik San Marino",
 				Nationality: "San-marinesisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "San Marino",
 				Official:    "Most Serene Republic of San Marino",
 				Nationality: "San Marinese",
@@ -2827,7 +2827,7 @@ var mappings = []Mapping{
 				Official:    "Demokratische Republik São Tomé und Príncipe",
 				Nationality: "sro-tomйisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "São Tomé and Príncipe",
 				Official:    "Democratic Republic of São Tomé and Príncipe",
 				Nationality: "Sao Tomean",
@@ -2843,7 +2843,7 @@ var mappings = []Mapping{
 				Common:      "Saudi-Arabien",
 				Nationality: "Saudi-arabisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Saudi Arabia",
 				Official:    "Kingdom of Saudi Arabia",
 				Nationality: "Saudi Arabian",
@@ -2859,7 +2859,7 @@ var mappings = []Mapping{
 				Official:    "Königreich Swasiland",
 				Nationality: "Swasi",
 			},
-			"gb": {
+			"en": {
 				Common:      "Swaziland",
 				Official:    "Kingdom of Swaziland",
 				Nationality: "Swasi",
@@ -2875,7 +2875,7 @@ var mappings = []Mapping{
 				Official:    "Republik der Seychellen",
 				Nationality: "Seychellisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Seychelles",
 				Official:    "Republic of Seychelles",
 				Nationality: "Seychellois",
@@ -2891,7 +2891,7 @@ var mappings = []Mapping{
 				Official:    "Republik Senegal",
 				Nationality: "Senegalesisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Senegal",
 				Official:    "Republic of Senegal",
 				Nationality: "Senegalese",
@@ -2907,7 +2907,7 @@ var mappings = []Mapping{
 				Official:    "St. Pierre und Miquelon",
 				Nationality: "Saint-Pierrais und Miquelonnais",
 			},
-			"gb": {
+			"en": {
 				Common:      "Saint Pierre and Miquelon",
 				Official:    "Saint Pierre and Miquelon",
 				Nationality: "Saint-Pierrais and Miquelonnais",
@@ -2923,7 +2923,7 @@ var mappings = []Mapping{
 				Common:      "Saint Vincent und die Grenadinen",
 				Nationality: "Vincentisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Saint Vincent and the Grenadines",
 				Official:    "Saint Vincent and the Grenadines",
 				Nationality: "Vincentian",
@@ -2939,7 +2939,7 @@ var mappings = []Mapping{
 				Official:    "Föderation von Saint Kitts und Nevisa",
 				Nationality: "Kittitianer und Nevisianer",
 			},
-			"gb": {
+			"en": {
 				Common:      "Saint Kitts and Nevis",
 				Official:    "Federation of Saint Christopher and Nevisa",
 				Nationality: "Kittitian and Nevisian",
@@ -2955,7 +2955,7 @@ var mappings = []Mapping{
 				Official:    "St. Lucia",
 				Nationality: "Lucianisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Saint Lucia",
 				Official:    "Saint Lucia",
 				Nationality: "Saint Lucian",
@@ -2971,7 +2971,7 @@ var mappings = []Mapping{
 				Common:      "Singapur",
 				Nationality: "Singapurisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Singapore",
 				Official:    "Republic of Singapore",
 				Nationality: "Singaporean",
@@ -2987,7 +2987,7 @@ var mappings = []Mapping{
 				Official:    "Arabische Republik Syrien",
 				Nationality: "Syrisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Syria",
 				Official:    "Syrian Arab Republic",
 				Nationality: "Syrian",
@@ -3003,7 +3003,7 @@ var mappings = []Mapping{
 				Official:    "Slowakische Republik",
 				Nationality: "Slowakisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Slovakia",
 				Official:    "Slovak Republic",
 				Nationality: "Slovak",
@@ -3019,7 +3019,7 @@ var mappings = []Mapping{
 				Official:    "Republik Slowenien",
 				Nationality: "Slowenisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Slovenia",
 				Official:    "Republic of Slovenia",
 				Nationality: "Slovenian",
@@ -3035,7 +3035,7 @@ var mappings = []Mapping{
 				Common:      "Vereinigte Staaten von Amerika",
 				Nationality: "Amerikanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "United States",
 				Official:    "United States of America",
 				Nationality: "American",
@@ -3051,7 +3051,7 @@ var mappings = []Mapping{
 				Official:    "Salomon-Inseln",
 				Nationality: "Salomonisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Solomon Islands",
 				Official:    "Solomon Islands",
 				Nationality: "Solomon Islander",
@@ -3067,7 +3067,7 @@ var mappings = []Mapping{
 				Common:      "Somalia",
 				Nationality: "Somalisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Somalia",
 				Official:    "Federal Republic of Somalia",
 				Nationality: "Somali",
@@ -3083,7 +3083,7 @@ var mappings = []Mapping{
 				Common:      "Sudan",
 				Nationality: "Sudanesisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Sudan",
 				Official:    "Republic of the Sudan",
 				Nationality: "Sudanese",
@@ -3099,7 +3099,7 @@ var mappings = []Mapping{
 				Common:      "Suriname",
 				Nationality: "Surinamisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Suriname",
 				Official:    "Republic of Suriname",
 				Nationality: "Surinamese",
@@ -3115,7 +3115,7 @@ var mappings = []Mapping{
 				Official:    "Republik Sierra Leone",
 				Nationality: "Sierra-leonisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Sierra Leone",
 				Official:    "Republic of Sierra Leone",
 				Nationality: "Sierra Leonean",
@@ -3131,7 +3131,7 @@ var mappings = []Mapping{
 				Common:      "Tadschikistan",
 				Nationality: "Tadschikisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Tajikistan",
 				Official:    "Republic of Tajikistan",
 				Nationality: "Tajik",
@@ -3147,7 +3147,7 @@ var mappings = []Mapping{
 				Official:    "Republik China (Taiwan)",
 				Nationality: "Taiwaner",
 			},
-			"gb": {
+			"en": {
 				Common:      "Taiwan",
 				Official:    "Republic of China (Taiwan)",
 				Nationality: "Taiwanese",
@@ -3163,7 +3163,7 @@ var mappings = []Mapping{
 				Common:      "Thailand",
 				Nationality: "Thailändisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Thailand",
 				Official:    "Kingdom of Thailand",
 				Nationality: "Thai",
@@ -3179,7 +3179,7 @@ var mappings = []Mapping{
 				Common:      "Tansania",
 				Nationality: "Tansanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Tanzania",
 				Official:    "United Republic of Tanzania",
 				Nationality: "Tanzanian",
@@ -3195,7 +3195,7 @@ var mappings = []Mapping{
 				Common:      "Togo",
 				Nationality: "Togoisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Togo",
 				Official:    "Togolese Republic",
 				Nationality: "Togolese",
@@ -3211,7 +3211,7 @@ var mappings = []Mapping{
 				Common:      "Tokelau",
 				Nationality: "Tokelauer",
 			},
-			"gb": {
+			"en": {
 				Common:      "Tokelau",
 				Official:    "Tokelau",
 				Nationality: "Tokelauan",
@@ -3227,7 +3227,7 @@ var mappings = []Mapping{
 				Official:    "Königreich Tonga",
 				Nationality: "Tongaisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Tonga",
 				Official:    "Kingdom of Tonga",
 				Nationality: "Tongan",
@@ -3243,7 +3243,7 @@ var mappings = []Mapping{
 				Official:    "Republik Trinidad und Tobago",
 				Nationality: "Trinidaner und Tobager",
 			},
-			"gb": {
+			"en": {
 				Common:      "Trinidad and Tobago",
 				Official:    "Republic of Trinidad and Tobago",
 				Nationality: "Trinidadian and Tobagonian",
@@ -3259,7 +3259,7 @@ var mappings = []Mapping{
 				Official:    "Tuvalu",
 				Nationality: "Tuvaluisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Tuvalu",
 				Official:    "Tuvalu",
 				Nationality: "Tuvaluan",
@@ -3275,7 +3275,7 @@ var mappings = []Mapping{
 				Official:    "Tunesische Republik",
 				Nationality: "Tunesisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Tunisia",
 				Official:    "Tunisian Republic",
 				Nationality: "Tunisian",
@@ -3291,7 +3291,7 @@ var mappings = []Mapping{
 				Official:    "Turkmenistan",
 				Nationality: "Turkmenisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Turkmenistan",
 				Official:    "Turkmenistan",
 				Nationality: "Turkmen",
@@ -3307,7 +3307,7 @@ var mappings = []Mapping{
 				Official:    "Republik Türkei",
 				Nationality: "Türkisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Turkey",
 				Official:    "Republic of Turkey",
 				Nationality: "Turkish",
@@ -3323,7 +3323,7 @@ var mappings = []Mapping{
 				Official:    "Republik Uganda",
 				Nationality: "Ugandisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Uganda",
 				Official:    "Republic of Uganda",
 				Nationality: "Ugandan",
@@ -3339,7 +3339,7 @@ var mappings = []Mapping{
 				Official:    "Republik Usbekistan",
 				Nationality: "Usbekisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Uzbekistan",
 				Official:    "Republic of Uzbekistan",
 				Nationality: "Uzbek",
@@ -3355,7 +3355,7 @@ var mappings = []Mapping{
 				Common:      "Ukraine",
 				Nationality: "Ukrainisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Ukraine",
 				Official:    "Ukraine",
 				Nationality: "Ukrainian",
@@ -3371,7 +3371,7 @@ var mappings = []Mapping{
 				Common:      "Uruguay",
 				Nationality: "Uruguayisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Uruguay",
 				Official:    "Oriental Republic of Uruguay",
 				Nationality: "Uruguayan",
@@ -3387,7 +3387,7 @@ var mappings = []Mapping{
 				Official:    "Färöer",
 				Nationality: "Färinger",
 			},
-			"gb": {
+			"en": {
 				Common:      "Faroe Islands",
 				Official:    "Faroe Islands",
 				Nationality: "Faroe Islander",
@@ -3403,7 +3403,7 @@ var mappings = []Mapping{
 				Official:    "Republik Fidschi",
 				Nationality: "Fidschianisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Fiji",
 				Official:    "Republic of Fiji",
 				Nationality: "Fijian",
@@ -3419,7 +3419,7 @@ var mappings = []Mapping{
 				Official:    "Republik der Philippinen",
 				Nationality: "Philippinisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Philippines",
 				Official:    "Republic of the Philippines",
 				Nationality: "Filipino",
@@ -3435,7 +3435,7 @@ var mappings = []Mapping{
 				Common:      "Finnland",
 				Nationality: "Finnisch", //nolint:misspell // correct german translation
 			},
-			"gb": {
+			"en": {
 				Common:      "Finland",
 				Official:    "Republic of Finland",
 				Nationality: "Finnish",
@@ -3451,7 +3451,7 @@ var mappings = []Mapping{
 				Official:    "Falkland-Inseln",
 				Nationality: "Finnish",
 			},
-			"gb": {
+			"en": {
 				Common:      "Falkland Islands",
 				Official:    "Falkland Islands",
 				Nationality: "Finnish",
@@ -3467,7 +3467,7 @@ var mappings = []Mapping{
 				Official:    "Französische Republik",
 				Nationality: "Französisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "France",
 				Official:    "French Republic",
 				Nationality: "French",
@@ -3483,7 +3483,7 @@ var mappings = []Mapping{
 				Official:    "Guayana",
 				Nationality: "Französisch-Guianisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "French Guiana",
 				Official:    "Guiana",
 				Nationality: "French Guianese",
@@ -3499,7 +3499,7 @@ var mappings = []Mapping{
 				Official:    "Französisch-Polynesien",
 				Nationality: "Französisch-Polynesien",
 			},
-			"gb": {
+			"en": {
 				Common:      "French Polynesia",
 				Official:    "French Polynesia",
 				Nationality: "French Polynesian",
@@ -3514,7 +3514,7 @@ var mappings = []Mapping{
 				Common:   "Französische Süd-und Antarktisgebiete",
 				Official: "Gebiet der Französisch Süd-und Antarktisgebiete",
 			},
-			"gb": {
+			"en": {
 				Common:   "French Southern and Antarctic Lands",
 				Official: "Territory of the French Southern and Antarctic Lands",
 			},
@@ -3529,7 +3529,7 @@ var mappings = []Mapping{
 				Common:      "Kroatien",
 				Nationality: "Kroatisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Croatia",
 				Official:    "Republic of Croatia",
 				Nationality: "Croatia",
@@ -3545,7 +3545,7 @@ var mappings = []Mapping{
 				Official:    "Zentralafrikanische Republik",
 				Nationality: "Zentralafrikanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Central African Republic",
 				Official:    "Central African Republic",
 				Nationality: "Central African Republic",
@@ -3561,7 +3561,7 @@ var mappings = []Mapping{
 				Official:    "Republik Tschad",
 				Nationality: "Tschadisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Chad",
 				Official:    "Republic of Chad",
 				Nationality: "Chad",
@@ -3577,7 +3577,7 @@ var mappings = []Mapping{
 				Common:      "Tschechische Republik",
 				Nationality: "Tschechisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Czech Republic",
 				Official:    "Czech Republic",
 				Nationality: "Czech",
@@ -3593,7 +3593,7 @@ var mappings = []Mapping{
 				Official:    "Republik Chile",
 				Nationality: "Chilenisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Chile",
 				Official:    "Republic of Chile",
 				Nationality: "Chilean",
@@ -3609,7 +3609,7 @@ var mappings = []Mapping{
 				Common:      "Schweiz",
 				Nationality: "Schweizerisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Switzerland",
 				Official:    "Swiss Confederation",
 				Nationality: "Swiss",
@@ -3625,7 +3625,7 @@ var mappings = []Mapping{
 				Official:    "Königreich Schweden",
 				Nationality: "Schwedisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Sweden",
 				Official:    "Kingdom of Sweden",
 				Nationality: "Swedish",
@@ -3641,7 +3641,7 @@ var mappings = []Mapping{
 				Common:      "Sri Lanka",
 				Nationality: "Sri-lankisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Sri Lanka",
 				Official:    "Democratic Socialist Republic of Sri Lanka",
 				Nationality: "Sri Lankan",
@@ -3657,7 +3657,7 @@ var mappings = []Mapping{
 				Common:      "Ecuador",
 				Nationality: "Ecuadorianisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Ecuador",
 				Official:    "Republic of Ecuador",
 				Nationality: "Ecuadorian",
@@ -3673,7 +3673,7 @@ var mappings = []Mapping{
 				Official:    "Republik Äquatorialguinea",
 				Nationality: "Äquatorial-guineisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Equatorial Guinea",
 				Official:    "Republic of Equatorial Guinea",
 				Nationality: "Equatorial Guinean",
@@ -3689,7 +3689,7 @@ var mappings = []Mapping{
 				Official:    "Staat Eritrea",
 				Nationality: "Eritreisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Eritrea",
 				Official:    "State of Eritrea",
 				Nationality: "Eritrean",
@@ -3705,7 +3705,7 @@ var mappings = []Mapping{
 				Official:    "Republik Estland",
 				Nationality: "Estnisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Estonia",
 				Official:    "Republic of Estonia",
 				Nationality: "Estonian",
@@ -3721,7 +3721,7 @@ var mappings = []Mapping{
 				Common:      "Äthiopien",
 				Nationality: "Äthiopisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Ethiopia",
 				Official:    "Federal Democratic Republic of Ethiopia",
 				Nationality: "Ethiopian",
@@ -3737,7 +3737,7 @@ var mappings = []Mapping{
 				Official:    "Republik Südafrika",
 				Nationality: "Südafrikanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "South Africa",
 				Official:    "Republic of South Africa",
 				Nationality: "South African",
@@ -3753,7 +3753,7 @@ var mappings = []Mapping{
 				Official:    "Südgeorgien und die Südlichen Sandwichinseln",
 				Nationality: "Südgeorgisch und Südliche Sandwichinseln",
 			},
-			"gb": {
+			"en": {
 				Common:      "South Georgia",
 				Official:    "South Georgia and the South Sandwich Islands",
 				Nationality: "South Georgia and the South Sandwich Islands",
@@ -3769,7 +3769,7 @@ var mappings = []Mapping{
 				Official:    "Jamaika",
 				Nationality: "Jamaikanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Jamaica",
 				Official:    "Jamaica",
 				Nationality: "Jamaican",
@@ -3785,7 +3785,7 @@ var mappings = []Mapping{
 				Common:      "Montenegro",
 				Nationality: "Montenegrinisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Montenegro",
 				Official:    "Montenegro",
 				Nationality: "Montenegrin",
@@ -3801,7 +3801,7 @@ var mappings = []Mapping{
 				Common:      "Saint-Barthélemy",
 				Nationality: "Saint-Barthélemois",
 			},
-			"gb": {
+			"en": {
 				Common:      "Saint Barthélemy",
 				Official:    "Collectivity of Saint Barthélemy",
 				Nationality: "Saint-Barthélemois",
@@ -3817,7 +3817,7 @@ var mappings = []Mapping{
 				Official:    "Sint Maarten",
 				Nationality: "Sint Maartener",
 			},
-			"gb": {
+			"en": {
 				Common:      "Sint Maarten",
 				Official:    "Sint Maarten",
 				Nationality: "Sint Maartener",
@@ -3833,7 +3833,7 @@ var mappings = []Mapping{
 				Official:    "Republik Serbien",
 				Nationality: "Serbisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Serbia",
 				Official:    "Republic of Serbia",
 				Nationality: "Serbian",
@@ -3849,7 +3849,7 @@ var mappings = []Mapping{
 				Official:    "Åland-Inseln",
 				Nationality: "Ålandisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Åland Islands",
 				Official:    "Åland Islands",
 				Nationality: "Ålandish",
@@ -3865,7 +3865,7 @@ var mappings = []Mapping{
 				Official:    "Bonaire, Sint Eustatius und Saba",
 				Nationality: "Bonaire, Sint Eustatius und Sabaner",
 			},
-			"gb": {
+			"en": {
 				Common:      "Caribbean Netherlands",
 				Official:    "Bonaire, Sint Eustatius and Saba",
 				Nationality: "Bonaire, Sint Eustatius and Saban",
@@ -3881,7 +3881,7 @@ var mappings = []Mapping{
 				Common:      "Guernsey",
 				Nationality: "Guernseyer",
 			},
-			"gb": {
+			"en": {
 				Common:      "Guernsey",
 				Official:    "Bailiwick of Guernsey",
 				Nationality: "Guernsey",
@@ -3897,7 +3897,7 @@ var mappings = []Mapping{
 				Common:      "Jersey",
 				Nationality: "Jerseyer",
 			},
-			"gb": {
+			"en": {
 				Common:      "Jersey",
 				Official:    "Bailiwick of Jersey",
 				Nationality: "Jersey",
@@ -3913,7 +3913,7 @@ var mappings = []Mapping{
 				Official:    "Curaçao",
 				Nationality: "Curaçaoer",
 			},
-			"gb": {
+			"en": {
 				Common:      "Curaçao",
 				Official:    "Country of Curaçao",
 				Nationality: "Curaçaoan",
@@ -3929,7 +3929,7 @@ var mappings = []Mapping{
 				Official:    "St. Martin",
 				Nationality: "Saint-Martiner",
 			},
-			"gb": {
+			"en": {
 				Common:      "Saint Martin",
 				Official:    "Saint Martin",
 				Nationality: "Saint-Martinois",
@@ -3945,7 +3945,7 @@ var mappings = []Mapping{
 				Common:      "Südsudan",
 				Nationality: "Südsudanesisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "South Sudan",
 				Official:    "Republic of South Sudan",
 				Nationality: "South Sudanese",
@@ -3961,7 +3961,7 @@ var mappings = []Mapping{
 				Official:    "Japan",
 				Nationality: "Japanisch",
 			},
-			"gb": {
+			"en": {
 				Common:      "Japan",
 				Official:    "Japan",
 				Nationality: "Japanese",
