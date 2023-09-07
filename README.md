@@ -12,20 +12,20 @@ This library has zero dependencies and aims to also have none in the future.
 ### Available functions
 
 ```go
-    GetAllMappings() []Mapping
+    AllMappings() []Mapping
     FindCountry(query string) (*Mapping, error)
-    GetCountryName(query string) string
-    GetAlpha2(query string) string
-    GetAlpha3(query string) string
-    GetCountryTranslation(query string, lang Language) (*Translation, error)
+    CountryName(query string) string
+    Alpha2(query string) string
+    Alpha3(query string) string
+    CountryTranslation(query string, lang Language) (*Translation, error)
 ```
 
 ### Examples
 
 ```go
-    countryName := countries.GetCountryName("DE")
-    countryName = countries.GetCountryName("DEU")
-    countryName = countries.GetCountryName("Germany")
+    countryName := countries.CountryName("DE")
+    countryName = countries.CountryName("DEU")
+    countryName = countries.CountryName("Germany")
 ```
 
 will all result in "Germany". If the country couldn't be found with the given query, your result will be an empty string.

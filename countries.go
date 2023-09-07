@@ -4,8 +4,8 @@ import (
 	"strings"
 )
 
-// GetAllMappings returns the list of all country mappings.
-func GetAllMappings() []Mapping {
+// AllMappings returns the list of all country mappings.
+func AllMappings() []Mapping {
 	return mappings
 }
 
@@ -69,8 +69,8 @@ func isCountryNameOrNationality(translation Translation, query string) bool {
 		strings.EqualFold(translation.Nationality, query)
 }
 
-// GetAlpha2 looks up any matching occurrence for the query and returns the ISO-3166-1 Alpha-2 code.
-func GetAlpha2(query string) string {
+// Alpha2 looks up any matching occurrence for the query and returns the ISO-3166-1 Alpha-2 code.
+func Alpha2(query string) string {
 	country, err := FindCountry(query)
 	if err != nil {
 		return ""
@@ -79,8 +79,8 @@ func GetAlpha2(query string) string {
 	return country.Alpha2
 }
 
-// GetAlpha3 looks up any matching occurrence for the query and returns the ISO-3166-1 Alpha-3 code.
-func GetAlpha3(query string) string {
+// Alpha3 looks up any matching occurrence for the query and returns the ISO-3166-1 Alpha-3 code.
+func Alpha3(query string) string {
 	country, err := FindCountry(query)
 	if err != nil {
 		return ""
@@ -89,8 +89,8 @@ func GetAlpha3(query string) string {
 	return country.Alpha3
 }
 
-// GetCountryName looks up any matching occurrence for the query and returns the official country name in english.
-func GetCountryName(query string) string {
+// CountryName looks up any matching occurrence for the query and returns the official country name in english.
+func CountryName(query string) string {
 	country, err := FindCountry(query)
 	if err != nil {
 		return ""
@@ -99,8 +99,8 @@ func GetCountryName(query string) string {
 	return country.Translations[string(EN)].Common
 }
 
-// GetCountryTranslation looks up any matching occurrence for the query and returns the country translation.
-func GetCountryTranslation(query string, lang Language) (*Translation, error) {
+// CountryTranslation looks up any matching occurrence for the query and returns the country translation.
+func CountryTranslation(query string, lang Language) (*Translation, error) {
 	country, err := FindCountry(query)
 	if err != nil {
 		return nil, ErrCountryNotFound
