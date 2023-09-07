@@ -15,18 +15,16 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-
     - name: Set up Go
       uses: actions/setup-go@v4
       with:
-        go-version: '1.20.6'
+        go-version: '>=1.21.0'
 
     - name: Vet
       run: go vet ./...
 
     - name: Test
-      run: go test -short -v ./...
+      run: go test -vet=off -race ./...
 
   govulncheck:
     runs-on: ubuntu-latest
@@ -35,5 +33,4 @@ jobs:
     - id: govulncheck
       uses: golang/govulncheck-action@v1
       with:
-         go-version-input: 1.20.6
          go-package: ./...
