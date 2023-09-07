@@ -3,7 +3,7 @@ package countries_test
 import (
 	"testing"
 
-	"github.com/Clarilab/countries/v2"
+	"github.com/Clarilab/countries"
 )
 
 func TestAlpha2(t *testing.T) {
