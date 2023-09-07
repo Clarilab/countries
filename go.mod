@@ -1,5 +1,3 @@
-module github.com/Clarilab/countries
+module github.com/Clarilab/countries/v2
 
-go 1.16
-
-require github.com/stretchr/testify v1.8.4
+go 1.18

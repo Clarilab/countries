@@ -1,43 +1,38 @@
 package countries
 
 import (
-	"errors"
-	"sort"
 	"strings"
 )
 
-// Mapping holds a country code.
-type Mapping struct {
-	Country string `json:"country" example:"Germany"`
-	Alpha2  string `json:"alpha2" example:"DE"`
-	Alpha3  string `json:"alpha3" example:"DEU"`
-}
-
-// ErrCountryNotFound indicates that the searched country was not found in our list.
-var ErrCountryNotFound = errors.New("country not found")
-
-// GetAllMappings returns the list of all country mappings.
-func GetAllMappings() []Mapping {
+// AllMappings returns the list of all country mappings.
+func AllMappings() []Mapping {
 	return mappings
 }
 
-// FindCountry looks up any matching occurence of the query.
+// FindCountry looks up any matching occurrence of the query.
 func FindCountry(query string) (*Mapping, error) {
+	const (
+		alpha2Len = 2
+		alpha3Len = 3
+	)
+
 	switch {
-	case len(query) < 2:
+	case len(query) < alpha2Len:
 		return nil, ErrCountryNotFound
-	case len(query) == 2:
+	case len(query) == alpha2Len:
 		return findCountryByAlpha2(query)
-	case len(query) == 3:
+	case len(query) == alpha3Len:
 		return findCountryByAlpha3(query)
 	default:
-		return findCountryByName(query)
+		return findCountryByNameOrNationality(query)
 	}
 }
 
 func findCountryByAlpha2(query string) (*Mapping, error) {
+	query = strings.ToUpper(query)
+
 	for i := range mappings {
-		if strings.EqualFold(mappings[i].Alpha2, query) {
+		if mappings[i].Alpha2 == query {
 			return &mappings[i], nil
 		}
 	}
@@ -46,8 +41,10 @@ func findCountryByAlpha2(query string) (*Mapping, error) {
 }
 
 func findCountryByAlpha3(query string) (*Mapping, error) {
+	query = strings.ToUpper(query)
+
 	for i := range mappings {
-		if strings.EqualFold(mappings[i].Alpha3, query) {
+		if mappings[i].Alpha3 == query {
 			return &mappings[i], nil
 		}
 	}
@@ -55,22 +52,25 @@ func findCountryByAlpha3(query string) (*Mapping, error) {
 	return nil, ErrCountryNotFound
 }
 
-func findCountryByName(query string) (*Mapping, error) {
-	query = strings.ToLower(query)
-
-	idx := sort.Search(len(mappings), func(i int) bool {
-		return strings.ToLower(mappings[i].Country) >= query
-	})
-
-	if idx < len(mappings) && strings.ToLower(mappings[idx].Country) == query {
-		return &mappings[idx], nil
+func findCountryByNameOrNationality(query string) (*Mapping, error) {
+	for i := range mappings {
+		if isCountryNameOrNationality(mappings[i].Translations[string(EN)], query) ||
+			isCountryNameOrNationality(mappings[i].Translations[string(DE)], query) {
+			return &mappings[i], nil
+		}
 	}
 
 	return nil, ErrCountryNotFound
 }
 
-// GetAlpha2 looks up any matching occurence for the query and returns the ISO-3166-1 Alpha-2 code.
-func GetAlpha2(query string) string {
+func isCountryNameOrNationality(translation Translation, query string) bool {
+	return strings.EqualFold(translation.Common, query) ||
+		strings.EqualFold(translation.Official, query) ||
+		strings.EqualFold(translation.Nationality, query)
+}
+
+// Alpha2 looks up any matching occurrence for the query and returns the ISO-3166-1 Alpha-2 code.
+func Alpha2(query string) string {
 	country, err := FindCountry(query)
 	if err != nil {
 		return ""
@@ -79,8 +79,8 @@ func GetAlpha2(query string) string {
 	return country.Alpha2
 }
 
-// GetAlpha3 looks up any matching occurence for the query and returns the ISO-3166-1 Alpha-3 code.
-func GetAlpha3(query string) string {
+// Alpha3 looks up any matching occurrence for the query and returns the ISO-3166-1 Alpha-3 code.
+func Alpha3(query string) string {
 	country, err := FindCountry(query)
 	if err != nil {
 		return ""
@@ -89,12 +89,27 @@ func GetAlpha3(query string) string {
 	return country.Alpha3
 }
 
-// GetCountryName looks up any matching occurence for the query and returns the country name in english.
-func GetCountryName(query string) string {
+// CountryName looks up any matching occurrence for the query and returns the official country name in english.
+func CountryName(query string) string {
 	country, err := FindCountry(query)
 	if err != nil {
 		return ""
 	}
 
-	return country.Country
+	return country.Translations[string(EN)].Common
+}
+
+// CountryTranslation looks up any matching occurrence for the query and returns the country translation.
+func CountryTranslation(query string, lang Language) (*Translation, error) {
+	country, err := FindCountry(query)
+	if err != nil {
+		return nil, ErrCountryNotFound
+	}
+
+	translation, ok := country.Translations[string(lang)]
+	if !ok {
+		return nil, ErrTranslationNotFound
+	}
+
+	return &translation, nil
 }

@@ -1,30 +1,34 @@
 package countries_test
 
 import (
-	"sort"
 	"testing"
 
-	"github.com/Clarilab/countries"
-	"github.com/stretchr/testify/assert"
+	"github.com/Clarilab/countries/v2"
 )
 
-func TestGetAlpha2(t *testing.T) {
-	for i := range countries.GetAllMappings() {
-		country := countries.GetAllMappings()[i]
+func TestAlpha2(t *testing.T) {
+	for i := range countries.AllMappings() {
+		country := countries.AllMappings()[i]
 
 		t.Run("find by country name", func(t *testing.T) {
-			alpha2 := countries.GetAlpha2(country.Country)
-			assert.Equal(t, country.Alpha2, alpha2)
+			alpha2 := countries.Alpha2(country.Translations[string(countries.EN)].Common)
+			if country.Alpha2 != alpha2 {
+				t.Errorf("expected: %s, got: %s", country.Alpha2, alpha2)
+			}
 		})
 
 		t.Run("find by alpha 2", func(t *testing.T) {
-			alpha2 := countries.GetAlpha2(country.Alpha2)
-			assert.Equal(t, country.Alpha2, alpha2)
+			alpha2 := countries.Alpha2(country.Alpha2)
+			if country.Alpha2 != alpha2 {
+				t.Errorf("expected: %s, got: %s", country.Alpha2, alpha2)
+			}
 		})
 
 		t.Run("find by alpha 3", func(t *testing.T) {
-			alpha2 := countries.GetAlpha2(country.Alpha3)
-			assert.Equal(t, country.Alpha2, alpha2)
+			alpha2 := countries.Alpha2(country.Alpha3)
+			if country.Alpha2 != alpha2 {
+				t.Errorf("expected: %s, got: %s", country.Alpha2, alpha2)
+			}
 		})
 	}
 }
@@ -32,22 +36,50 @@ func TestGetAlpha2(t *testing.T) {
 func BenchmarkGetByCountryName(b *testing.B) {
 	b.ReportAllocs()
 
-	for i := 0; i < b.N; i++ {
-		_ = countries.GetCountryName("Germany")
+	inputs := []string{
+		"Australia", // best case
+		"Japan",     // worst case
+	}
+
+	for _, input := range inputs {
+		b.Run("input_"+input, func(b *testing.B) {
+			for i := 0; i < b.N; i++ {
+				_ = countries.Alpha2(input)
+			}
+		})
 	}
 }
 
-func TestMappingsAreSortedByCountryName(t *testing.T) {
-	mappings := countries.GetAllMappings()
+func BenchmarkGetByAlpha2(b *testing.B) {
+	b.ReportAllocs()
 
-	sorted := make([]countries.Mapping, len(mappings))
-	copy(sorted, mappings)
+	inputs := []string{
+		"AU", // best case
+		"JP", // worst case
+	}
 
-	// sort the "sorted" slice
-	sort.Slice(sorted, func(i, j int) bool {
-		return sorted[i].Country <= sorted[j].Country
-	})
+	for _, input := range inputs {
+		b.Run("input_"+input, func(b *testing.B) {
+			for i := 0; i < b.N; i++ {
+				_ = countries.Alpha2(input)
+			}
+		})
+	}
+}
 
-	// if both slices are equal after sorting "sorted", mappings was already sorted
-	assert.Equal(t, sorted, mappings)
+func BenchmarkGetByAlpha3(b *testing.B) {
+	b.ReportAllocs()
+
+	inputs := []string{
+		"AUS", // best case
+		"JPN", // worst case
+	}
+
+	for _, input := range inputs {
+		b.Run("input_"+input, func(b *testing.B) {
+			for i := 0; i < b.N; i++ {
+				_ = countries.Alpha2(input)
+			}
+		})
+	}
 }
