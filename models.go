@@ -14,9 +14,9 @@ const (
 
 // Mapping holds a country code.
 type Mapping struct {
-	Alpha2       string                 `json:"alpha2" example:"DE"`
-	Alpha3       string                 `json:"alpha3" example:"DEU"`
-	Translations map[string]Translation `json:"translations"`
+	Alpha2       string                   `json:"alpha2" example:"DE"`
+	Alpha3       string                   `json:"alpha3" example:"DEU"`
+	Translations map[Language]Translation `json:"translations"`
 }
 
 // Translation is a single translation for a country.

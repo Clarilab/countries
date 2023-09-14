@@ -54,8 +54,8 @@ func findCountryByAlpha3(query string) (*Mapping, error) {
 
 func findCountryByNameOrNationality(query string) (*Mapping, error) {
 	for i := range mappings {
-		if isCountryNameOrNationality(mappings[i].Translations[string(EN)], query) ||
-			isCountryNameOrNationality(mappings[i].Translations[string(DE)], query) {
+		if isCountryNameOrNationality(mappings[i].Translations[EN], query) ||
+			isCountryNameOrNationality(mappings[i].Translations[DE], query) {
 			return &mappings[i], nil
 		}
 	}
@@ -96,7 +96,7 @@ func CountryName(query string) string {
 		return ""
 	}
 
-	return country.Translations[string(EN)].Common
+	return country.Translations[EN].Common
 }
 
 // CountryTranslation looks up any matching occurrence for the query and returns the country translation.
@@ -106,7 +106,7 @@ func CountryTranslation(query string, lang Language) (*Translation, error) {
 		return nil, ErrCountryNotFound
 	}
 
-	translation, ok := country.Translations[string(lang)]
+	translation, ok := country.Translations[lang]
 	if !ok {
 		return nil, ErrTranslationNotFound
 	}
