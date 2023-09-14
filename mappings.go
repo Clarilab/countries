@@ -5,7 +5,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "AU",
 		Alpha3: "AUS",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Australien",              //nolint:misspell // correct german translation
 				Official:    "Commonwealth Australien", //nolint:misspell // correct german translation
@@ -21,7 +21,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "AT",
 		Alpha3: "AUT",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Österreich",
 				Official:    "Republik Österreich",
@@ -37,7 +37,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "AZ",
 		Alpha3: "AZE",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Aserbaidschan",
 				Official:    "Republik Aserbaidschan",
@@ -53,7 +53,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "AL",
 		Alpha3: "ALB",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Albanien",
 				Official:    "Republik Albanien",
@@ -69,7 +69,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "DZ",
 		Alpha3: "DZA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Algerien",
 				Official:    "Demokratische Volksrepublik Algerien",
@@ -85,7 +85,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "AS",
 		Alpha3: "ASM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Amerikanisch-Samoa",
 				Common:      "Amerikanisch-Samoa",
@@ -101,7 +101,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "AI",
 		Alpha3: "AIA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Anguilla",
 				Official:    "Anguilla",
@@ -117,7 +117,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "AO",
 		Alpha3: "AGO",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Angola",
 				Official:    "Republik Angola",
@@ -133,7 +133,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "AD",
 		Alpha3: "AND",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Andorra",
 				Official:    "Fürstentum Andorra",
@@ -149,7 +149,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "AQ",
 		Alpha3: "ATA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:   "Antarktis",
 				Official: "Antarktika",
@@ -163,7 +163,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "AG",
 		Alpha3: "ATG",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Antigua und Barbuda",
 				Official:    "Antigua und Barbuda",
@@ -179,7 +179,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "AE",
 		Alpha3: "ARE",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Vereinigte Arabische Emirate",
 				Common:      "Vereinigte Arabische Emirate",
@@ -195,7 +195,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "AR",
 		Alpha3: "ARG",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Argentinische Republik",
 				Common:      "Argentinien",
@@ -211,7 +211,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "AM",
 		Alpha3: "ARM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Armenien",
 				Official:    "Republik Armenien",
@@ -227,7 +227,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "AW",
 		Alpha3: "ABW",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Aruba",
 				Official:    "Aruba",
@@ -243,7 +243,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "AF",
 		Alpha3: "AFG",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Afghanistan",
 				Official:    "Islamische Republik Afghanistan",
@@ -259,7 +259,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BS",
 		Alpha3: "BHS",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Commonwealth der Bahamas",
 				Common:      "Bahamas",
@@ -275,7 +275,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BD",
 		Alpha3: "BGD",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Bangladesch",               //nolint:misspell // correct german translation
 				Official:    "Volksrepublik Bangladesch", //nolint:misspell // correct german translation
@@ -291,7 +291,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BB",
 		Alpha3: "BRB",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Barbados",
 				Official:    "Barbados",
@@ -307,7 +307,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BH",
 		Alpha3: "BHR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Königreich Bahrain",
 				Common:      "Bahrain",
@@ -323,7 +323,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BY",
 		Alpha3: "BLR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Weißrussland",
 				Official:    "Republik Belarus",
@@ -339,7 +339,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BZ",
 		Alpha3: "BLZ",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Belize",
 				Official:    "Belize",
@@ -355,7 +355,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BE",
 		Alpha3: "BEL",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Belgien",
 				Official:    "Königreich Belgien",
@@ -371,7 +371,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BJ",
 		Alpha3: "BEN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Benin",
 				Common:      "Benin",
@@ -387,7 +387,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BM",
 		Alpha3: "BMU",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Bermuda",
 				Common:      "Bermuda",
@@ -403,7 +403,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BG",
 		Alpha3: "BGR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Bulgarien",
 				Official:    "Republik Bulgarien",
@@ -419,7 +419,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BO",
 		Alpha3: "BOL",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Multinationaler Staat von Bolivien",
 				Common:      "Bolivien",
@@ -435,7 +435,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BA",
 		Alpha3: "BIH",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Bosnien und Herzegowina",
 				Official:    "Bosnien und Herzegowina",
@@ -451,7 +451,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BW",
 		Alpha3: "BWA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Botswana",
 				Official:    "Republik Botswana",
@@ -467,7 +467,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BR",
 		Alpha3: "BRA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Brasilien",
 				Official:    "Föderative Republik Brasilien",
@@ -483,7 +483,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "IO",
 		Alpha3: "IOT",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:   "Britisches Territorium im Indischen Ozean",
 				Official: "Britisch-Indischer Ozean",
@@ -497,7 +497,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BN",
 		Alpha3: "BRN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Brunei",
 				Official:    "Nation von Brunei, Wohnung des Friedens",
@@ -513,7 +513,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BF",
 		Alpha3: "BFA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Burkina Faso",
 				Official:    "Burkina Faso",
@@ -529,7 +529,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BI",
 		Alpha3: "BDI",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Burundi",
 				Official:    "Republik Burundi",
@@ -545,7 +545,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BT",
 		Alpha3: "BTN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Bhutan",
 				Official:    "Königreich Bhutan",
@@ -561,7 +561,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "VU",
 		Alpha3: "VUT",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Vanuatu",
 				Official:    "Vanuatu",
@@ -577,7 +577,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "VA",
 		Alpha3: "VAT",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Vatikanstadt",
 				Official:    "Staat Vatikanstadt",
@@ -593,7 +593,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GB",
 		Alpha3: "GBR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Vereinigtes Königreich",
 				Official:    "Vereinigtes Königreich Großbritannien und Nordirland",
@@ -609,7 +609,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "HU",
 		Alpha3: "HUN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Ungarn",
 				Official:    "Ungarn",
@@ -625,7 +625,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "VE",
 		Alpha3: "VEN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Venezuela",
 				Official:    "Bolivarische Republik Venezuela",
@@ -641,7 +641,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "VG",
 		Alpha3: "VGB",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Britische Jungferninseln",
 				Official:    "Jungferninseln",
@@ -657,7 +657,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "VI",
 		Alpha3: "VIR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Jungferninseln der Vereinigten Staaten",
 				Common:      "Amerikanische Jungferninseln",
@@ -673,7 +673,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "TL",
 		Alpha3: "TLS",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Timor-Leste",
 				Official:    "Demokratische Republik Timor-Leste",
@@ -689,7 +689,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "VN",
 		Alpha3: "VNM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Vietnam",
 				Official:    "Sozialistische Republik Vietnam",
@@ -705,7 +705,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GA",
 		Alpha3: "GAB",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Gabun",
 				Official:    "Gabunische Republik",
@@ -721,7 +721,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "HT",
 		Alpha3: "HTI",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Haiti",
 				Official:    "Republik Haiti",
@@ -737,7 +737,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GY",
 		Alpha3: "GUY",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Guayana",
 				Common:      "Französisch Guyana",
@@ -753,7 +753,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GM",
 		Alpha3: "GMB",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Gambia",
 				Official:    "Republik Gambia",
@@ -769,7 +769,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GH",
 		Alpha3: "GHA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Ghana",
 				Official:    "Republik Ghana",
@@ -785,7 +785,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GP",
 		Alpha3: "GLP",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Guadeloupe",
 				Official:    "Guadeloupe",
@@ -801,7 +801,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GT",
 		Alpha3: "GTM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Guatemala",
 				Official:    "Republik Guatemala",
@@ -817,7 +817,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GN",
 		Alpha3: "GIN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Guinea",
 				Common:      "Guinea",
@@ -833,7 +833,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GW",
 		Alpha3: "GNB",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Guinea-Bissau",
 				Official:    "Republik Guinea-Bissau",
@@ -849,7 +849,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "DE",
 		Alpha3: "DEU",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Deutschland",
 				Official:    "Bundesrepublik Deutschland",
@@ -865,7 +865,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GI",
 		Alpha3: "GIB",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Gibraltar",
 				Official:    "Gibraltar",
@@ -881,7 +881,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "HN",
 		Alpha3: "HND",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Honduras",
 				Official:    "Republik Honduras",
@@ -897,7 +897,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "HK",
 		Alpha3: "HKG",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Hongkong",
 				Official:    "Sonderverwaltungszone der Volksrepublik China",
@@ -913,7 +913,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GD",
 		Alpha3: "GRD",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Grenada",
 				Common:      "Grenada",
@@ -929,7 +929,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GL",
 		Alpha3: "GRL",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Grönland",
 				Official:    "Grönland",
@@ -945,7 +945,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GR",
 		Alpha3: "GRC",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Griechenland",
 				Official:    "Hellenische Republik",
@@ -961,7 +961,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GE",
 		Alpha3: "GEO",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Georgia",
 				Common:      "Georgien",
@@ -977,7 +977,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GU",
 		Alpha3: "GUM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Guam",
 				Official:    "Guam",
@@ -993,7 +993,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "DK",
 		Alpha3: "DNK",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Königreich Dänemark",
 				Common:      "Dänemark",
@@ -1009,7 +1009,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CD",
 		Alpha3: "COD",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Kongo (Dem. Rep.)",
 				Official:    "Demokratische Republik Kongo",
@@ -1025,7 +1025,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "DJ",
 		Alpha3: "DJI",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Dschibuti",
 				Official:    "Republik Dschibuti",
@@ -1041,7 +1041,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "DM",
 		Alpha3: "DMA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Dominica",
 				Official:    "Commonwealth von Dominica",
@@ -1057,7 +1057,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "DO",
 		Alpha3: "DOM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Dominikanische Republik",
 				Common:      "Dominikanische Republik",
@@ -1073,7 +1073,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "EG",
 		Alpha3: "EGY",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Ägypten",
 				Official:    "Arabische Republik Ägypten",
@@ -1089,7 +1089,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "ZM",
 		Alpha3: "ZMB",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Sambia",
 				Official:    "Republik Sambia",
@@ -1105,7 +1105,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "EH",
 		Alpha3: "ESH",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:   "Westsahara",
 				Official: "Demokratische Arabische Republik Sahara",
@@ -1119,7 +1119,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "ZW",
 		Alpha3: "ZWE",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Simbabwe",
 				Official:    "Republik Simbabwe",
@@ -1135,7 +1135,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "IL",
 		Alpha3: "ISR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Israel",
 				Official:    "Staat Israel",
@@ -1151,7 +1151,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "IN",
 		Alpha3: "IND",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Indien",
 				Official:    "Republik Indien",
@@ -1167,7 +1167,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "ID",
 		Alpha3: "IDN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Indonesien",          //nolint:misspell // correct german translation
 				Official:    "Republik Indonesien", //nolint:misspell // correct german translation
@@ -1182,7 +1182,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "JO",
 		Alpha3: "JOR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Haschemitisches Königreich Jordanien",
 				Common:      "Jordanien",
@@ -1198,7 +1198,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "IQ",
 		Alpha3: "IRQ",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Irak",
 				Official:    "Republik Irak",
@@ -1214,7 +1214,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "IR",
 		Alpha3: "IRN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Iran",
 				Official:    "Islamische Republik Iran",
@@ -1230,7 +1230,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "IE",
 		Alpha3: "IRL",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Irland",
 				Common:      "Irland",
@@ -1246,7 +1246,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "IS",
 		Alpha3: "ISL",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Island",
 				Official:    "Island",
@@ -1262,7 +1262,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "ES",
 		Alpha3: "ESP",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Spanien",
 				Official:    "Königreich Spanien",
@@ -1278,7 +1278,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "IT",
 		Alpha3: "ITA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Italienische Republik",
 				Common:      "Italien",
@@ -1294,7 +1294,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "YE",
 		Alpha3: "YEM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Jemen",
 				Official:    "Republik Jemen",
@@ -1310,7 +1310,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "KZ",
 		Alpha3: "KAZ",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Kasachstan",
 				Official:    "Republik Kasachstan",
@@ -1326,7 +1326,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "KY",
 		Alpha3: "CYM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Kaimaninseln",
 				Official:    "Cayman-Inseln",
@@ -1342,7 +1342,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "KH",
 		Alpha3: "KHM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Königreich Kambodscha",
 				Common:      "Kambodscha",
@@ -1358,7 +1358,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CM",
 		Alpha3: "CMR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Kamerun",
 				Official:    "Republik Kamerun",
@@ -1374,7 +1374,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CA",
 		Alpha3: "CAN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Kanada",
 				Common:      "Kanada",
@@ -1390,7 +1390,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "QA",
 		Alpha3: "QAT",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Katar",
 				Official:    "Staat Katar",
@@ -1406,7 +1406,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "KE",
 		Alpha3: "KEN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Kenia",
 				Official:    "Republik Kenia",
@@ -1422,7 +1422,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CY",
 		Alpha3: "CYP",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Zypern",
 				Common:      "Zypern",
@@ -1438,7 +1438,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "KI",
 		Alpha3: "KIR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Kiribati",
 				Official:    "Unabhängige und souveräne Republik Kiribati",
@@ -1454,7 +1454,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CN",
 		Alpha3: "CHN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Volksrepublik China",
 				Common:      "China",
@@ -1470,7 +1470,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CC",
 		Alpha3: "CCK",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Kokosinseln",
 				Official:    "Gebiet der Cocos (Keeling) Islands",
@@ -1486,7 +1486,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CO",
 		Alpha3: "COL",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Kolumbien",
 				Official:    "Republik Kolumbien",
@@ -1502,7 +1502,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "KM",
 		Alpha3: "COM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:   "Union der Komoren",
 				Official: "Komorisch",
@@ -1516,7 +1516,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CG",
 		Alpha3: "COG",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Kongo",
 				Official:    "Republik Kongo",
@@ -1532,7 +1532,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "KP",
 		Alpha3: "PRK",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Nordkorea",
 				Official:    "Demokratische Volksrepublik Korea",
@@ -1548,7 +1548,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "KR",
 		Alpha3: "KOR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Südkorea",
 				Official:    "Republik Korea",
@@ -1564,7 +1564,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CR",
 		Alpha3: "CRI",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Costa Rica",
 				Common:      "Costa Rica",
@@ -1580,7 +1580,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CI",
 		Alpha3: "CIV",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Elfenbeinküste",
 				Official:    "Republik Côte d'Ivoire",
@@ -1596,7 +1596,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CU",
 		Alpha3: "CUB",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Kuba",
 				Official:    "Republik Kuba",
@@ -1612,7 +1612,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "KW",
 		Alpha3: "KWT",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Kuwait",
 				Official:    "Staat Kuwait",
@@ -1628,7 +1628,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "KG",
 		Alpha3: "KGZ",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Kirgisistan",
 				Official:    "Kirgisische Republik",
@@ -1644,7 +1644,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "LA",
 		Alpha3: "LAO",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Laos",
 				Official:    "Laos, Demokratische Volksrepublik",
@@ -1660,7 +1660,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "LV",
 		Alpha3: "LVA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Lettland",
 				Common:      "Lettland",
@@ -1676,7 +1676,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "LS",
 		Alpha3: "LSO",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Lesotho",
 				Official:    "Königreich Lesotho",
@@ -1692,7 +1692,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "LR",
 		Alpha3: "LBR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Liberia",
 				Common:      "Liberia",
@@ -1708,7 +1708,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "LB",
 		Alpha3: "LBN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Libanesische Republik",
 				Common:      "Libanon",
@@ -1724,7 +1724,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "LY",
 		Alpha3: "LBY",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Libyen",
 				Official:    "Staat Libyen",
@@ -1740,7 +1740,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "LT",
 		Alpha3: "LTU",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Litauen",
 				Official:    "Republik Litauen",
@@ -1756,7 +1756,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "LI",
 		Alpha3: "LIE",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Liechtenstein",
 				Official:    "Fürstentum Liechtenstein",
@@ -1772,7 +1772,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "LU",
 		Alpha3: "LUX",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Luxemburg",
 				Official:    "Großherzogtum Luxemburg",
@@ -1788,7 +1788,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MU",
 		Alpha3: "MUS",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Mauritius",
 				Official:    "Republik Mauritius",
@@ -1804,7 +1804,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MR",
 		Alpha3: "MRT",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Islamische Republik Mauretanien",
 				Common:      "Mauretanien",
@@ -1820,7 +1820,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MG",
 		Alpha3: "MDG",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Madagaskar",
 				Official:    "Republik Madagascar",
@@ -1836,7 +1836,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "YT",
 		Alpha3: "MYT",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Übersee-Département Mayotte",
 				Common:      "Mayotte",
@@ -1852,7 +1852,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MO",
 		Alpha3: "MAC",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Macao",
 				Official:    "Sonderverwaltungsregion Macau der Volksrepublik China",
@@ -1868,7 +1868,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MK",
 		Alpha3: "MKD",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Mazedonien",
 				Official:    "Republik Mazedonien",
@@ -1884,7 +1884,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MW",
 		Alpha3: "MWI",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Malawi",
 				Official:    "Republik Malawi",
@@ -1900,7 +1900,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MY",
 		Alpha3: "MYS",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Malaysia",
 				Common:      "Malaysia",
@@ -1916,7 +1916,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "ML",
 		Alpha3: "MLI",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Mali",
 				Common:      "Mali",
@@ -1932,7 +1932,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MV",
 		Alpha3: "MDV",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Malediven",
 				Official:    "Republik Malediven",
@@ -1948,7 +1948,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MT",
 		Alpha3: "MLT",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Malta",
 				Common:      "Malta",
@@ -1964,7 +1964,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MP",
 		Alpha3: "MNP",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Nördliche Marianen",
 				Official:    "Commonwealth der Nördlichen Marianen",
@@ -1980,7 +1980,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MA",
 		Alpha3: "MAR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Marokko",
 				Official:    "Königreich Marokko",
@@ -1996,7 +1996,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MQ",
 		Alpha3: "MTQ",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Martinique",
 				Official:    "Martinique",
@@ -2012,7 +2012,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MH",
 		Alpha3: "MHL",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Marshallinseln",
 				Official:    "Republik der Marshall-Inseln",
@@ -2028,7 +2028,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MX",
 		Alpha3: "MEX",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Mexiko",
 				Official:    "Vereinigte Mexikanische Staaten",
@@ -2044,7 +2044,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "FM",
 		Alpha3: "FSM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Mikronesien",
 				Official:    "Föderierte Staaten von Mikronesien",
@@ -2059,7 +2059,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MZ",
 		Alpha3: "MOZ",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Mosambik",
 				Common:      "Mosambik",
@@ -2075,7 +2075,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MD",
 		Alpha3: "MDA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Moldawie",
 				Official:    "Republik Moldau",
@@ -2091,7 +2091,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MC",
 		Alpha3: "MCO",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Monaco",
 				Official:    "Fürstentum Monaco",
@@ -2107,7 +2107,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MN",
 		Alpha3: "MNG",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Mongolei",
 				Common:      "Mongolei",
@@ -2123,7 +2123,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MS",
 		Alpha3: "MSR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Montserrat",
 				Common:      "Montserrat",
@@ -2139,7 +2139,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MM",
 		Alpha3: "MMR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Myanmar",
 				Official:    "Republik der Union von Myanmar",
@@ -2155,7 +2155,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "NA",
 		Alpha3: "NAM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Namibia",
 				Official:    "Republik Namibia",
@@ -2171,7 +2171,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "NR",
 		Alpha3: "NRU",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Nauru",
 				Official:    "Republik Nauru",
@@ -2187,7 +2187,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "NP",
 		Alpha3: "NPL",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Népal",
 				Official:    "Demokratischen Bundesrepublik Nepal",
@@ -2203,7 +2203,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "NE",
 		Alpha3: "NER",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Niger",
 				Common:      "Niger",
@@ -2219,7 +2219,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "NG",
 		Alpha3: "NGA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Nigeria",
 				Official:    "Bundesrepublik Nigeria",
@@ -2235,7 +2235,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "NL",
 		Alpha3: "NLD",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Niederlande",
 				Common:      "Niederlande",
@@ -2251,7 +2251,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "NI",
 		Alpha3: "NIC",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Nicaragua",
 				Common:      "Nicaragua",
@@ -2267,7 +2267,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "NU",
 		Alpha3: "NIU",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Niue",
 				Official:    "Niue",
@@ -2283,7 +2283,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "NZ",
 		Alpha3: "NZL",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Neuseeland",
 				Official:    "Neuseeland",
@@ -2299,7 +2299,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "NC",
 		Alpha3: "NCL",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Neukaledonien",
 				Common:      "Neukaledonien",
@@ -2315,7 +2315,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "NO",
 		Alpha3: "NOR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Königreich Norwegen",
 				Common:      "Norwegen",
@@ -2331,7 +2331,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "OM",
 		Alpha3: "OMN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Oman",
 				Official:    "Sultanat Oman",
@@ -2347,7 +2347,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BV",
 		Alpha3: "BVT",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official: "Bouvet-Insel",
 				Common:   "Bouvetinsel",
@@ -2361,7 +2361,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "IM",
 		Alpha3: "IMN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Isle of Man",
 				Common:      "Insel Man",
@@ -2377,7 +2377,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "NF",
 		Alpha3: "NFK",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Norfolkinsel",
 				Official:    "Gebiet der Norfolk-Insel",
@@ -2393,7 +2393,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "PN",
 		Alpha3: "PCN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Pitcairn Inselgruppe",
 				Common:      "Pitcairn",
@@ -2409,7 +2409,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CX",
 		Alpha3: "CXR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Gebiet der Weihnachtsinsel",
 				Common:      "Weihnachtsinsel",
@@ -2425,7 +2425,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SH",
 		Alpha3: "SHN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "St. Helena",
 				Official:    "St. Helena, Ascension und Tristan da Cunha",
@@ -2441,7 +2441,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "WF",
 		Alpha3: "WLF",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Wallis und Futuna",
 				Official:    "Gebiet der Wallis und Futuna",
@@ -2457,7 +2457,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "HM",
 		Alpha3: "HMD",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official: "Heard und McDonaldinseln",
 				Common:   "Heard und die McDonaldinseln",
@@ -2471,7 +2471,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CV",
 		Alpha3: "CPV",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Cabo Verde",
 				Common:      "Kap Verde",
@@ -2487,7 +2487,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CK",
 		Alpha3: "COK",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Cookinseln",
 				Official:    "Cook-Inseln",
@@ -2503,7 +2503,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "WS",
 		Alpha3: "WSM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Samoa",
 				Official:    "Unabhängige Staat Samoa",
@@ -2519,7 +2519,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SJ",
 		Alpha3: "SJM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Spitzbergen",
 				Official:    "Inselgruppe Spitzbergen",
@@ -2535,7 +2535,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "TC",
 		Alpha3: "TCA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Turks-und Caicosinseln",
 				Official:    "Turks und Caicos Inseln",
@@ -2551,7 +2551,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "UM",
 		Alpha3: "UMI",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official: "USA, kleinere ausgelagerte Inseln",
 				Common:   "Kleinere Inselbesitzungen der Vereinigten Staaten",
@@ -2565,7 +2565,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "PK",
 		Alpha3: "PAK",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Pakistan",
 				Official:    "Islamische Republik Pakistan",
@@ -2581,7 +2581,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "PW",
 		Alpha3: "PLW",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Palau",
 				Common:      "Palau",
@@ -2597,7 +2597,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "PS",
 		Alpha3: "PSE",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Palästina",
 				Official:    "Staat Palästina",
@@ -2613,7 +2613,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "PA",
 		Alpha3: "PAN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Panama",
 				Common:      "Panama",
@@ -2629,7 +2629,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "PG",
 		Alpha3: "PNG",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Papua-Neuguinea",
 				Official:    "Unabhängige Staat Papua-Neuguinea",
@@ -2645,7 +2645,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "PY",
 		Alpha3: "PRY",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Paraguay",
 				Official:    "Republik Paraguay",
@@ -2661,7 +2661,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "PE",
 		Alpha3: "PER",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Peru",
 				Common:      "Peru",
@@ -2677,7 +2677,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "PL",
 		Alpha3: "POL",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Polen",
 				Official:    "Republik Polen",
@@ -2693,7 +2693,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "PT",
 		Alpha3: "PRT",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Portugal",
 				Official:    "Portugiesische Republik",
@@ -2709,7 +2709,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "PR",
 		Alpha3: "PRI",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Puerto Rico",
 				Official:    "Commonwealth von Puerto Rico",
@@ -2725,7 +2725,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "RE",
 		Alpha3: "REU",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Réunion",
 				Common:      "Réunion",
@@ -2741,7 +2741,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "RU",
 		Alpha3: "RUS",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Russland",
 				Official:    "Russische Föderation",
@@ -2757,7 +2757,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "RW",
 		Alpha3: "RWA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Ruanda",
 				Common:      "Ruanda",
@@ -2773,7 +2773,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "RO",
 		Alpha3: "ROU",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Rumänien",
 				Common:      "Rumänien",
@@ -2789,7 +2789,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SV",
 		Alpha3: "SLV",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "El Salvador",
 				Official:    "Republik El Salvador",
@@ -2805,7 +2805,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SM",
 		Alpha3: "SMR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "San Marino",
 				Official:    "Republik San Marino",
@@ -2821,7 +2821,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "ST",
 		Alpha3: "STP",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "São Tomé und Príncipe",
 				Official:    "Demokratische Republik São Tomé und Príncipe",
@@ -2837,7 +2837,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SA",
 		Alpha3: "SAU",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Königreich Saudi-Arabien",
 				Common:      "Saudi-Arabien",
@@ -2853,7 +2853,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SZ",
 		Alpha3: "SWZ",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Swasiland",
 				Official:    "Königreich Swasiland",
@@ -2869,7 +2869,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SC",
 		Alpha3: "SYC",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Seychellen",
 				Official:    "Republik der Seychellen",
@@ -2885,7 +2885,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SN",
 		Alpha3: "SEN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Senegal",
 				Official:    "Republik Senegal",
@@ -2901,7 +2901,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "PM",
 		Alpha3: "SPM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Saint-Pierre und Miquelon",
 				Official:    "St. Pierre und Miquelon",
@@ -2917,7 +2917,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "VC",
 		Alpha3: "VCT",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "St. Vincent und die Grenadinen",
 				Common:      "Saint Vincent und die Grenadinen",
@@ -2933,7 +2933,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "KN",
 		Alpha3: "KNA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Saint Christopher und Nevis",
 				Official:    "Föderation von Saint Kitts und Nevisa",
@@ -2949,7 +2949,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "LC",
 		Alpha3: "LCA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Saint Lucia",
 				Official:    "St. Lucia",
@@ -2965,7 +2965,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SG",
 		Alpha3: "SGP",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Singapur",
 				Common:      "Singapur",
@@ -2981,7 +2981,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SY",
 		Alpha3: "SYR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Syrien",
 				Official:    "Arabische Republik Syrien",
@@ -2997,7 +2997,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SK",
 		Alpha3: "SVK",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Slowakei",
 				Official:    "Slowakische Republik",
@@ -3013,7 +3013,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SI",
 		Alpha3: "SVN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Slowenien",
 				Official:    "Republik Slowenien",
@@ -3029,7 +3029,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "US",
 		Alpha3: "USA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Vereinigte Staaten von Amerika",
 				Common:      "Vereinigte Staaten von Amerika",
@@ -3045,7 +3045,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SB",
 		Alpha3: "SLB",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Salomonen",
 				Official:    "Salomon-Inseln",
@@ -3061,7 +3061,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SO",
 		Alpha3: "SOM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Bundesrepublik Somalia",
 				Common:      "Somalia",
@@ -3077,7 +3077,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SD",
 		Alpha3: "SDN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Sudan",
 				Common:      "Sudan",
@@ -3093,7 +3093,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SR",
 		Alpha3: "SUR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Suriname",
 				Common:      "Suriname",
@@ -3109,7 +3109,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SL",
 		Alpha3: "SLE",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Sierra Leone",
 				Official:    "Republik Sierra Leone",
@@ -3125,7 +3125,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "TJ",
 		Alpha3: "TJK",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Tadschikistan",
 				Common:      "Tadschikistan",
@@ -3141,7 +3141,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "TW",
 		Alpha3: "TWN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Taiwan",
 				Official:    "Republik China (Taiwan)",
@@ -3157,7 +3157,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "TH",
 		Alpha3: "THA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Königreich Thailand",
 				Common:      "Thailand",
@@ -3173,7 +3173,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "TZ",
 		Alpha3: "TZA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Vereinigte Republik Tansania",
 				Common:      "Tansania",
@@ -3189,7 +3189,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "TG",
 		Alpha3: "TGO",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Togo",
 				Common:      "Togo",
@@ -3205,7 +3205,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "TK",
 		Alpha3: "TKL",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Tokelau",
 				Common:      "Tokelau",
@@ -3221,7 +3221,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "TO",
 		Alpha3: "TON",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Tonga",
 				Official:    "Königreich Tonga",
@@ -3237,7 +3237,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "TT",
 		Alpha3: "TTO",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Trinidad und Tobago",
 				Official:    "Republik Trinidad und Tobago",
@@ -3253,7 +3253,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "TV",
 		Alpha3: "TUV",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Tuvalu",
 				Official:    "Tuvalu",
@@ -3269,7 +3269,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "TN",
 		Alpha3: "TUN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Tunesien",
 				Official:    "Tunesische Republik",
@@ -3285,7 +3285,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "TM",
 		Alpha3: "TKM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Turkmenistan",
 				Official:    "Turkmenistan",
@@ -3301,7 +3301,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "TR",
 		Alpha3: "TUR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Türkei",
 				Official:    "Republik Türkei",
@@ -3317,7 +3317,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "UG",
 		Alpha3: "UGA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Uganda",
 				Official:    "Republik Uganda",
@@ -3333,7 +3333,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "UZ",
 		Alpha3: "UZB",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Usbekistan",
 				Official:    "Republik Usbekistan",
@@ -3349,7 +3349,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "UA",
 		Alpha3: "UKR",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Ukraine",
 				Common:      "Ukraine",
@@ -3365,7 +3365,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "UY",
 		Alpha3: "URY",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Östlich des Uruguay",
 				Common:      "Uruguay",
@@ -3381,7 +3381,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "FO",
 		Alpha3: "FRO",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Färöer-Inseln",
 				Official:    "Färöer",
@@ -3397,7 +3397,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "FJ",
 		Alpha3: "FJI",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Fidschi",
 				Official:    "Republik Fidschi",
@@ -3413,7 +3413,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "PH",
 		Alpha3: "PHL",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Philippinen",
 				Official:    "Republik der Philippinen",
@@ -3429,7 +3429,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "FI",
 		Alpha3: "FIN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Finnland",
 				Common:      "Finnland",
@@ -3445,7 +3445,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "FK",
 		Alpha3: "FLK",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Falklandinseln",
 				Official:    "Falkland-Inseln",
@@ -3461,7 +3461,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "FR",
 		Alpha3: "FRA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Frankreich",
 				Official:    "Französische Republik",
@@ -3477,7 +3477,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GF",
 		Alpha3: "GUF",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Französisch Guyana",
 				Official:    "Guayana",
@@ -3493,7 +3493,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "PF",
 		Alpha3: "PYF",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Französisch-Polynesien",
 				Official:    "Französisch-Polynesien",
@@ -3509,7 +3509,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "TF",
 		Alpha3: "ATF",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:   "Französische Süd-und Antarktisgebiete",
 				Official: "Gebiet der Französisch Süd-und Antarktisgebiete",
@@ -3523,7 +3523,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "HR",
 		Alpha3: "HRV",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Kroatien",
 				Common:      "Kroatien",
@@ -3539,7 +3539,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CF",
 		Alpha3: "CAF",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Zentralafrikanische Republik",
 				Official:    "Zentralafrikanische Republik",
@@ -3555,7 +3555,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "TD",
 		Alpha3: "TCD",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Tschad",
 				Official:    "Republik Tschad",
@@ -3571,7 +3571,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CZ",
 		Alpha3: "CZE",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Tschechische Republik",
 				Common:      "Tschechische Republik",
@@ -3587,7 +3587,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CL",
 		Alpha3: "CHL",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Chile",
 				Official:    "Republik Chile",
@@ -3603,7 +3603,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CH",
 		Alpha3: "CHE",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Schweizerische Eidgenossenschaft",
 				Common:      "Schweiz",
@@ -3619,7 +3619,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SE",
 		Alpha3: "SWE",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Schweden",
 				Official:    "Königreich Schweden",
@@ -3635,7 +3635,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "LK",
 		Alpha3: "LKA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Demokratische Sozialistische Republik Sri Lanka",
 				Common:      "Sri Lanka",
@@ -3651,7 +3651,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "EC",
 		Alpha3: "ECU",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Ecuador",
 				Common:      "Ecuador",
@@ -3667,7 +3667,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GQ",
 		Alpha3: "GNQ",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Äquatorialguinea",
 				Official:    "Republik Äquatorialguinea",
@@ -3683,7 +3683,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "ER",
 		Alpha3: "ERI",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Eritrea",
 				Official:    "Staat Eritrea",
@@ -3699,7 +3699,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "EE",
 		Alpha3: "EST",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Estland",
 				Official:    "Republik Estland",
@@ -3715,7 +3715,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "ET",
 		Alpha3: "ETH",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Demokratische Bundesrepublik Äthiopien",
 				Common:      "Äthiopien",
@@ -3731,7 +3731,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "ZA",
 		Alpha3: "ZAF",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Republic Südafrika",
 				Official:    "Republik Südafrika",
@@ -3747,7 +3747,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GS",
 		Alpha3: "SGS",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Südgeorgien und die Südlichen Sandwichinseln",
 				Official:    "Südgeorgien und die Südlichen Sandwichinseln",
@@ -3763,7 +3763,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "JM",
 		Alpha3: "JAM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Jamaika",
 				Official:    "Jamaika",
@@ -3779,7 +3779,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "ME",
 		Alpha3: "MNE",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Montenegro",
 				Common:      "Montenegro",
@@ -3795,7 +3795,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BL",
 		Alpha3: "BLM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Gebietskörperschaft Saint -Barthélemy",
 				Common:      "Saint-Barthélemy",
@@ -3811,7 +3811,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SX",
 		Alpha3: "SXM",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Sint Maarten",
 				Official:    "Sint Maarten",
@@ -3827,7 +3827,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "RS",
 		Alpha3: "SRB",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Serbien",
 				Official:    "Republik Serbien",
@@ -3843,7 +3843,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "AX",
 		Alpha3: "ALA",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Åland",
 				Official:    "Åland-Inseln",
@@ -3859,7 +3859,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "BQ",
 		Alpha3: "BES",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Karibische Niederlande",
 				Official:    "Bonaire, Sint Eustatius und Saba",
@@ -3875,7 +3875,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "GG",
 		Alpha3: "GGY",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Guernsey",
 				Common:      "Guernsey",
@@ -3891,7 +3891,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "JE",
 		Alpha3: "JEY",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Vogtei Jersey",
 				Common:      "Jersey",
@@ -3907,7 +3907,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "CW",
 		Alpha3: "CUW",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Curaçao",
 				Official:    "Curaçao",
@@ -3923,7 +3923,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "MF",
 		Alpha3: "MAF",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Saint Martin",
 				Official:    "St. Martin",
@@ -3939,7 +3939,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "SS",
 		Alpha3: "SSD",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Official:    "Republik Südsudan",
 				Common:      "Südsudan",
@@ -3955,7 +3955,7 @@ var mappings = []Mapping{
 	{
 		Alpha2: "JP",
 		Alpha3: "JPN",
-		Translations: map[string]Translation{
+		Translations: map[Language]Translation{
 			"de": {
 				Common:      "Japan",
 				Official:    "Japan",

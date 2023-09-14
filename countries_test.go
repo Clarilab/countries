@@ -11,7 +11,7 @@ func TestAlpha2(t *testing.T) {
 		country := countries.AllMappings()[i]
 
 		t.Run("find by country name", func(t *testing.T) {
-			alpha2 := countries.Alpha2(country.Translations[string(countries.EN)].Common)
+			alpha2 := countries.Alpha2(country.Translations[countries.EN].Common)
 			if country.Alpha2 != alpha2 {
 				t.Errorf("expected: %s, got: %s", country.Alpha2, alpha2)
 			}
