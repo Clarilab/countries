@@ -4,18 +4,32 @@ import (
 	"strings"
 )
 
+const (
+	alpha2Len = 2
+	alpha3Len = 3
+)
+
 // AllMappings returns the list of all country mappings.
 func AllMappings() []Mapping {
 	return mappings
 }
 
+// Exists checks if any occurrence of the query matches.
+func Exists(query string) bool {
+	switch {
+	case len(query) < alpha2Len:
+		return false
+	case len(query) == alpha2Len:
+		return existsByAlpha2(query)
+	case len(query) == alpha3Len:
+		return existsByAlpha3(query)
+	default:
+		return existsByNameOrNationality(query)
+	}
+}
+
 // FindCountry looks up any matching occurrence of the query.
 func FindCountry(query string) (*Mapping, error) {
-	const (
-		alpha2Len = 2
-		alpha3Len = 3
-	)
-
 	switch {
 	case len(query) < alpha2Len:
 		return nil, ErrCountryNotFound
@@ -61,6 +75,41 @@ func findCountryByNameOrNationality(query string) (*Mapping, error) {
 	}
 
 	return nil, ErrCountryNotFound
+}
+
+func existsByAlpha2(query string) bool {
+	query = strings.ToUpper(query)
+
+	for i := range mappings {
+		if mappings[i].Alpha2 == query {
+			return true
+		}
+	}
+
+	return false
+}
+
+func existsByAlpha3(query string) bool {
+	query = strings.ToUpper(query)
+
+	for i := range mappings {
+		if mappings[i].Alpha3 == query {
+			return true
+		}
+	}
+
+	return false
+}
+
+func existsByNameOrNationality(query string) bool {
+	for i := range mappings {
+		if isCountryNameOrNationality(mappings[i].Translations[EN], query) ||
+			isCountryNameOrNationality(mappings[i].Translations[DE], query) {
+			return true
+		}
+	}
+
+	return false
 }
 
 func isCountryNameOrNationality(translation Translation, query string) bool {
