@@ -59,6 +59,46 @@ func Test_Exists(t *testing.T) {
 	})
 }
 
+func Test_ExistsAlpha2(t *testing.T) {
+	t.Run("exists alpha 2", func(t *testing.T) {
+		if !countries.ExistsAlpha2("AU") {
+			t.Error("expected: true, got: false")
+		}
+	})
+
+	t.Run("exists alpha 3", func(t *testing.T) {
+		if countries.ExistsAlpha2("AUS") {
+			t.Error("expected: false, got: true")
+		}
+	})
+
+	t.Run("does not exist", func(t *testing.T) {
+		if countries.ExistsAlpha2("NoAlpha2Code") {
+			t.Error("expected: false, got: true")
+		}
+	})
+}
+
+func Test_ExistsAlpha3(t *testing.T) {
+	t.Run("exists alpha 3", func(t *testing.T) {
+		if !countries.ExistsAlpha3("AUS") {
+			t.Error("expected: true, got: false")
+		}
+	})
+
+	t.Run("exists alpha 2", func(t *testing.T) {
+		if countries.ExistsAlpha3("AU") {
+			t.Error("expected: false, got: true")
+		}
+	})
+
+	t.Run("does not exist", func(t *testing.T) {
+		if countries.ExistsAlpha3("NoAlpha2Code") {
+			t.Error("expected: false, got: true")
+		}
+	})
+}
+
 func BenchmarkGetByCountryName(b *testing.B) {
 	b.ReportAllocs()
 
