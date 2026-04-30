@@ -14,18 +14,44 @@ func AllMappings() []Mapping {
 	return mappings
 }
 
-// Exists checks if any occurrence of the query matches.
+// Exists checks if any occurrence of the query matches an ISO-3166-1 Alpha-2 code, an ISO-3166-1 Alpha-3 code or a country name.
 func Exists(query string) bool {
 	switch {
 	case len(query) < alpha2Len:
 		return false
 	case len(query) == alpha2Len:
-		return existsByAlpha2(query)
+		return ExistsAlpha2(query)
 	case len(query) == alpha3Len:
-		return existsByAlpha3(query)
+		return ExistsAlpha3(query)
 	default:
 		return existsByNameOrNationality(query)
 	}
+}
+
+// ExistsAlpha2 checks if any occurrence of the query matches an ISO-3166-1 Alpha-2 code.
+func ExistsAlpha2(query string) bool {
+	query = strings.ToUpper(query)
+
+	for i := range mappings {
+		if mappings[i].Alpha2 == query {
+			return true
+		}
+	}
+
+	return false
+}
+
+// ExistsAlpha3 checks if any occurrence of the query matches an ISO-3166-1 Alpha-3 code.
+func ExistsAlpha3(query string) bool {
+	query = strings.ToUpper(query)
+
+	for i := range mappings {
+		if mappings[i].Alpha3 == query {
+			return true
+		}
+	}
+
+	return false
 }
 
 // FindCountry looks up any matching occurrence of the query.
@@ -75,30 +101,6 @@ func findCountryByNameOrNationality(query string) (*Mapping, error) {
 	}
 
 	return nil, ErrCountryNotFound
-}
-
-func existsByAlpha2(query string) bool {
-	query = strings.ToUpper(query)
-
-	for i := range mappings {
-		if mappings[i].Alpha2 == query {
-			return true
-		}
-	}
-
-	return false
-}
-
-func existsByAlpha3(query string) bool {
-	query = strings.ToUpper(query)
-
-	for i := range mappings {
-		if mappings[i].Alpha3 == query {
-			return true
-		}
-	}
-
-	return false
 }
 
 func existsByNameOrNationality(query string) bool {
