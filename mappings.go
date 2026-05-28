@@ -3968,4 +3968,29 @@ var mappings = []Mapping{
 			},
 		},
 	},
+	// there are 2 possible mappings for Kosovo, because there is no official ISO3166-1 code for Kosovo,
+	// but both XKX and RKS are used in practice.
+	// The order of the two mappings is important because we want to map to XKX preferredly from the country name.
+	{
+		Alpha2: "XK",
+		Alpha3: "XKX",
+		Translations: map[Language]Translation{
+			"de": {
+				Common:      "Kosovo",
+				Official:    "Republik Kosovo",
+				Nationality: "Kosovo",
+			},
+		},
+	},
+	{
+		Alpha2: "XK",
+		Alpha3: "RKS",
+		Translations: map[Language]Translation{
+			"de": {
+				Common:      "Kosovo",
+				Official:    "Republik Kosovo",
+				Nationality: "Kosovo",
+			},
+		},
+	},
 }
