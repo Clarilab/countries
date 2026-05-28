@@ -3978,7 +3978,12 @@ var mappings = []Mapping{
 			"de": {
 				Common:      "Kosovo",
 				Official:    "Republik Kosovo",
-				Nationality: "Kosovo",
+				Nationality: "Kosovarisch",
+			},
+			"en": {
+				Common:      "Kosovo",
+				Official:    "Republic of Kosovo",
+				Nationality: "Kosovar",
 			},
 		},
 	},
@@ -3989,7 +3994,12 @@ var mappings = []Mapping{
 			"de": {
 				Common:      "Kosovo",
 				Official:    "Republik Kosovo",
-				Nationality: "Kosovo",
+				Nationality: "Kosovarisch",
+			},
+			"en": {
+				Common:      "Kosovo",
+				Official:    "Republic of Kosovo",
+				Nationality: "Kosovar",
 			},
 		},
 	},
